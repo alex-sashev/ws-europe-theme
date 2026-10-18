@@ -6,13 +6,9 @@
 defined( 'ABSPATH' ) || exit;
 
 add_action( 'wp_enqueue_scripts', function () {
-	$dir = get_stylesheet_directory();
-	$uri = get_stylesheet_directory_uri();
-
-	// Same fonts as the current site. TODO before launch: self-host (EU courts have fined sites for loading Google Fonts without consent).
-	wp_enqueue_style( 'ws-europe-fonts', 'https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap', array(), null );
-	wp_enqueue_style( 'ws-europe-kit', $uri . '/assets/ws-kit.css', array(), filemtime( $dir . '/assets/ws-kit.css' ) );
-	wp_enqueue_style( 'ws-europe', get_stylesheet_uri(), array( 'ws-europe-kit' ), filemtime( $dir . '/style.css' ) );
+	// TODO before launch: self-host these fonts (EU courts have fined sites for loading Google Fonts without consent).
+	wp_enqueue_style( 'ws-europe-fonts', 'https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap', array(), null );
+	wp_enqueue_style( 'ws-europe', get_stylesheet_uri(), array(), filemtime( get_stylesheet_directory() . '/style.css' ) );
 } );
 
 add_action( 'admin_notices', function () {
@@ -20,3 +16,58 @@ add_action( 'admin_notices', function () {
 		echo '<div class="notice notice-warning"><p>' . esc_html__( 'The Widows Sons Europe theme needs the "Widows Sons Chapters" plugin for chapter pages, the directory and the map.', 'ws-europe' ) . '</p></div>';
 	}
 } );
+
+/*
+ * Link helpers for templates, so links work wherever the site lives (subfolder, staging, Playground).
+ * [ws_news_url]               The posts page (News), or the home page if none is set.
+ * [ws_page_url slug=about]    A page by its slug.
+ */
+add_action( 'init', function () {
+	add_shortcode( 'ws_news_url', function () {
+		$id = (int) get_option( 'page_for_posts' );
+		return esc_url( $id ? get_permalink( $id ) : home_url( '/' ) );
+	} );
+	add_shortcode( 'ws_home_url', function () {
+		return esc_url( home_url( '/' ) );
+	} );
+	add_shortcode( 'ws_stats_bar', 'ws_europe_stats_bar' );
+	add_shortcode( 'ws_admin_url', function () {
+		return esc_url( wp_login_url() );
+	} );
+	add_shortcode( 'ws_year', function () {
+		return esc_html( wp_date( 'Y' ) );
+	} );
+	add_shortcode( 'ws_page_url', function ( $atts ) {
+		$atts = shortcode_atts( array( 'slug' => '' ), (array) $atts );
+		$page = $atts['slug'] ? get_page_by_path( sanitize_title( $atts['slug'] ) ) : null;
+		return esc_url( $page ? get_permalink( $page ) : home_url( '/' ) );
+	} );
+} );
+
+/** Home stats bar: chapters, countries, kilometres, one brotherhood, and the motto. */
+function ws_europe_stats_bar() {
+	$chapters  = (int) wp_count_posts( 'ws_chapter' )->publish;
+	$countries = (int) wp_count_terms( array( 'taxonomy' => 'ws_country', 'hide_empty' => true ) );
+	$icons     = array(
+		'people' => '<circle cx="24" cy="15" r="6"/><circle cx="11" cy="19" r="4.5"/><circle cx="37" cy="19" r="4.5"/><path d="M13 40c0-7 5-12 11-12s11 5 11 12M3 38c0-5 3.5-9 8-9M45 38c0-5-3.5-9-8-9"/>',
+		'pin'    => '<path d="M24 44s-13-11.5-13-21a13 13 0 0 1 26 0c0 9.5-13 21-13 21z"/><circle cx="24" cy="22" r="5"/>',
+		'road'   => '<path d="M18 6 8 42M30 6l10 36M24 8v6M24 20v6M24 32v6"/>',
+		'hands'  => '<path d="M4 24l8-8 8 4 6-4 8 2 10 6M10 22l10 10a3 3 0 0 0 4-4M18 30l4 4a3 3 0 0 0 4-4M22 26l6 6a3 3 0 0 0 4-4l-8-8"/>',
+	);
+	$items = array(
+		array( 'people', $chapters, __( 'Chapters across Europe', 'ws-europe' ) ),
+		array( 'pin', $countries, __( 'Countries', 'ws-europe' ) ),
+		array( 'road', __( 'Thousands', 'ws-europe' ), __( 'Of kilometres together', 'ws-europe' ) ),
+		array( 'hands', __( 'One', 'ws-europe' ), __( 'Brotherhood', 'ws-europe' ) ),
+	);
+	$out = '<div class="ws-stats-bar__inner">';
+	foreach ( $items as $item ) {
+		$out .= sprintf(
+			'<div class="ws-stat"><svg viewBox="0 0 48 48" aria-hidden="true">%s</svg><p><strong>%s</strong><span>%s</span></p></div>',
+			$icons[ $item[0] ],
+			esc_html( $item[1] ),
+			esc_html( $item[2] )
+		);
+	}
+	return $out . '<blockquote class="ws-stat-quote"><p>' . esc_html__( '“Different roads. Same values. One brotherhood.”', 'ws-europe' ) . '</p></blockquote></div>';
+}

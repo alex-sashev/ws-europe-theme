@@ -2,51 +2,52 @@
 	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
 	"version": 3,
 	"settings": {
+		"appearanceTools": true,
 		"color": {
 			"defaultPalette": false,
+			"defaultGradients": false,
 			"palette": [
-				{ "slug": "base", "name": "Background", "color": "#0E0E0F" },
-				{ "slug": "base-deep", "name": "Background deep", "color": "#09090A" },
-				{ "slug": "band", "name": "Band", "color": "#141416" },
-				{ "slug": "card", "name": "Card", "color": "#161618" },
-				{ "slug": "border", "name": "Border", "color": "#26262A" },
-				{ "slug": "contrast", "name": "Text", "color": "#EDE8DF" },
-				{ "slug": "text-2", "name": "Text secondary", "color": "#CFC9BF" },
-				{ "slug": "muted", "name": "Muted", "color": "#A8A29A" },
-				{ "slug": "accent", "name": "Accent red", "color": "#A3222B" },
-				{ "slug": "brass", "name": "Brass", "color": "#C9A45C" }
+				{ "slug": "base", "name": "Paper", "color": "#F6F3EC" },
+				{ "slug": "surface", "name": "White", "color": "#FFFFFF" },
+				{ "slug": "ink", "name": "Black", "color": "#0B0B0C" },
+				{ "slug": "ink-2", "name": "Charcoal", "color": "#16171A" },
+				{ "slug": "contrast", "name": "Text", "color": "#1C1A17" },
+				{ "slug": "muted", "name": "Muted text", "color": "#6B655C" },
+				{ "slug": "line", "name": "Line", "color": "#E3DCCD" },
+				{ "slug": "gold", "name": "Gold", "color": "#C9A24A" },
+				{ "slug": "gold-light", "name": "Light gold", "color": "#E3C77A" },
+				{ "slug": "gold-dark", "name": "Dark gold", "color": "#8A6D2C" }
 			]
 		},
 		"typography": {
 			"fontFamilies": [
-				{ "slug": "display", "name": "Oswald", "fontFamily": "'Oswald', 'Arial Narrow', sans-serif" },
-				{ "slug": "body", "name": "IBM Plex Sans", "fontFamily": "'IBM Plex Sans', Arial, sans-serif" },
-				{ "slug": "serif", "name": "IBM Plex Serif", "fontFamily": "'IBM Plex Serif', Georgia, serif" }
+				{ "slug": "display", "name": "Cinzel", "fontFamily": "'Cinzel', 'Times New Roman', serif" },
+				{ "slug": "body", "name": "Source Sans 3", "fontFamily": "'Source Sans 3', 'Helvetica Neue', Arial, sans-serif" }
 			]
 		},
-		"layout": { "contentSize": "760px", "wideSize": "1240px" }
+		"layout": { "contentSize": "780px", "wideSize": "1280px" }
 	},
 	"styles": {
 		"color": { "background": "var:preset|color|base", "text": "var:preset|color|contrast" },
 		"typography": { "fontFamily": "var:preset|font-family|body", "fontSize": "17px", "lineHeight": "1.6" },
 		"elements": {
 			"heading": {
-				"typography": { "fontFamily": "var:preset|font-family|display", "fontWeight": "600", "letterSpacing": "0.02em", "lineHeight": "1.2" },
-				"color": { "text": "var:preset|color|contrast" }
+				"typography": { "fontFamily": "var:preset|font-family|display", "fontWeight": "700", "letterSpacing": "0.02em", "lineHeight": "1.15" },
+				"color": { "text": "var:preset|color|ink" }
 			},
 			"link": {
-				"color": { "text": "var:preset|color|brass" },
-				":hover": { "color": { "text": "var:preset|color|contrast" } }
+				"color": { "text": "var:preset|color|gold-dark" },
+				":hover": { "color": { "text": "var:preset|color|ink" } }
 			},
 			"button": {
-				"color": { "background": "var:preset|color|accent", "text": "#ffffff" },
-				"border": { "radius": "4px" },
-				"typography": { "fontFamily": "var:preset|font-family|display", "letterSpacing": "0.06em", "textTransform": "uppercase" },
-				":hover": { "color": { "background": "#7E1A21", "text": "#ffffff" } }
+				"color": { "background": "var:preset|color|gold", "text": "var:preset|color|ink" },
+				"border": { "radius": "3px" },
+				"typography": { "fontFamily": "var:preset|font-family|body", "fontWeight": "700", "letterSpacing": "0.08em", "textTransform": "uppercase", "fontSize": "0.9rem" },
+				":hover": { "color": { "background": "var:preset|color|gold-light", "text": "var:preset|color|ink" } }
 			}
 		},
 		"blocks": {
-			"core/separator": { "color": { "background": "var:preset|color|border", "text": "var:preset|color|border" } }
+			"core/separator": { "color": { "background": "var:preset|color|line", "text": "var:preset|color|line" } }
 		}
 	}
 }
