@@ -1,0 +1,33 @@
+<!-- wp:template-part {"slug":"header"} /-->
+
+<!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+
+	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+	<div class="wp-block-group alignwide">
+		<!-- wp:html -->
+		<span class="ws-eyebrow">Widows Sons · Europe</span>
+		<!-- /wp:html -->
+
+		<!-- wp:heading {"level":1,"style":{"typography":{"textTransform":"uppercase","fontSize":"clamp(2.25rem, 5vw, 3.75rem)"}}} -->
+		<h1 class="wp-block-heading" style="font-size:clamp(2.25rem, 5vw, 3.75rem);text-transform:uppercase">Chapters</h1>
+		<!-- /wp:heading -->
+
+		<!-- wp:paragraph {"className":"ws-lead"} -->
+		<p class="ws-lead">Find a Widows Sons chapter near you. Select a logo on the map to open the chapter's page.</p>
+		<!-- /wp:paragraph -->
+	</div>
+	<!-- /wp:group -->
+
+	<!-- wp:html {"align":"wide"} -->
+	<div class="alignwide" style="margin-block:var(--wp--preset--spacing--50)">[ws_chapter_map]</div>
+	<!-- /wp:html -->
+
+	<!-- wp:html -->
+	<div class="alignwide">[ws_chapter_directory]</div>
+	<!-- /wp:html -->
+
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer"} /-->

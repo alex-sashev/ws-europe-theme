@@ -1,0 +1,39 @@
+<!-- wp:template-part {"slug":"header"} /-->
+
+<!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+
+	<!-- wp:group {"align":"wide","className":"ws-country-hero","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"},"style":{"spacing":{"blockGap":"var:preset|spacing|50"}}} -->
+	<div class="wp-block-group alignwide ws-country-hero">
+		<!-- wp:html -->
+		[ws_country_logo]
+		<!-- /wp:html -->
+
+		<!-- wp:group {"layout":{"type":"default"}} -->
+		<div class="wp-block-group">
+			<!-- wp:html -->
+			<span class="ws-eyebrow">Grand Chapter</span>
+			<!-- /wp:html -->
+			<!-- wp:query-title {"type":"archive","showPrefix":false,"style":{"typography":{"textTransform":"uppercase","fontSize":"clamp(2rem, 4.5vw, 3.25rem)"}}} /-->
+			<!-- wp:term-description /-->
+		</div>
+		<!-- /wp:group -->
+	</div>
+	<!-- /wp:group -->
+
+	<!-- wp:html -->
+	<div class="alignwide" style="margin-block:var(--wp--preset--spacing--50)">[ws_chapter_map height="440"]</div>
+	<!-- /wp:html -->
+
+	<!-- wp:html -->
+	<div class="alignwide">[ws_chapter_directory]</div>
+	<!-- /wp:html -->
+
+	<!-- wp:paragraph {"align":"wide"} -->
+	<p class="alignwide"><a href="[ws_chapters_url]">← All chapters in Europe</a></p>
+	<!-- /wp:paragraph -->
+
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer"} /-->

@@ -1,0 +1,78 @@
+/*
+Theme Name:   Widows Sons Europe
+Description:  Child theme of Twenty Twenty-Five for Widows Sons chapters in Europe. Dark design carried over from the Grand Chapter Bulgaria site; chapter profiles, directory and map via the ws-chapters plugin.
+Template:     twentytwentyfive
+Version:      1.0.0
+Requires at least: 6.7
+Text Domain:  ws-europe
+License:      GPL-2.0-or-later
+*/
+
+/* Design tokens — same names and values as custom.css, so the .ws-* kit works unchanged. */
+:root {
+	--ws-bg:        #0E0E0F;
+	--ws-bg-deep:   #09090A;
+	--ws-band:      #141416;
+	--ws-card:      #161618;
+	--ws-photo:     #1C1C1F;
+	--ws-border:    #26262A;
+	--ws-border-2:  #5A5650;
+	--ws-text:      #EDE8DF;
+	--ws-text-2:    #CFC9BF;
+	--ws-muted:     #A8A29A;
+	--ws-muted-2:   #8C867D;
+	--ws-accent:    #A3222B;
+	--ws-accent-dk: #7E1A21;
+	--ws-brass:     #C9A45C;
+	--ws-radius:    4px;
+	--ws-display:   'Oswald', 'Arial Narrow', sans-serif;
+	--ws-body:      'IBM Plex Sans', Arial, sans-serif;
+	--ws-serif:     'IBM Plex Serif', Georgia, serif;
+}
+
+body { -webkit-font-smoothing: antialiased; }
+::selection { background: var(--ws-accent); color: #fff; }
+
+/* ---------- Chapter profile ---------- */
+
+.ws-profile__hero { align-items: center; }
+.ws-profile__kicker .ws-chapter-meta {
+	font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: var(--ws-brass);
+}
+.ws-profile__kicker .ws-chapter-meta a { color: inherit; text-decoration: none; }
+.ws-profile__kicker .ws-chapter-meta a:hover { color: var(--ws-text); }
+
+.ws-profile__marks {
+	display: grid; grid-template-columns: repeat(2, minmax(0, 160px)); gap: 1.5rem;
+	padding-top: 1.5rem; border-top: 1px solid var(--ws-border);
+}
+.ws-profile__marks figure { margin: 0; }
+.ws-profile__marks figcaption {
+	margin-top: .5rem; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--ws-muted-2);
+}
+.ws-profile__marks .ws-insignia--pending { min-height: 0; font-size: .75rem; }
+.ws-profile__marks .ws-country-logo { max-width: none; }
+
+.ws-back-patch .ws-insignia { filter: drop-shadow(0 12px 32px rgba(0, 0, 0, .55)); }
+
+/* ---------- Directory / country ---------- */
+
+.ws-chapter-group__title { border-bottom: 1px solid var(--ws-border); padding-bottom: .5rem; }
+.ws-chapter-card__name { font-family: var(--ws-display); font-weight: 500; letter-spacing: .02em; }
+.ws-chapter-card .ws-chapter-meta { font-size: .875rem; }
+
+.ws-country-hero .ws-country-logo { max-width: 140px; }
+
+/* Leaflet popups are light; keep their text readable. */
+.leaflet-container { font-family: var(--ws-body); background: var(--ws-bg-deep); }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--ws-card); color: var(--ws-text); }
+.leaflet-popup-content-wrapper { border: 1px solid var(--ws-border-2); border-radius: var(--ws-radius); }
+.ws-map-popup span { color: var(--ws-muted); }
+.ws-map-popup a { color: var(--ws-brass); }
+.leaflet-container a.leaflet-popup-close-button { color: var(--ws-muted); }
+
+/* Phones: back patch first, above the text. */
+@media (max-width: 781px) {
+	.ws-profile__hero > .wp-block-column:last-child { order: -1; }
+	.ws-back-patch { max-width: 360px; }
+}
