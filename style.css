@@ -2,7 +2,7 @@
 Theme Name:   Widows Sons Europe
 Description:  Child theme of Twenty Twenty-Five for Widows Sons chapters in Europe. Modern and clean, black and gold: "Brotherhood beyond borders". Country and chapter pages, map of Europe, events and news via the ws-chapters plugin.
 Template:     twentytwentyfive
-Version:      2.8.18
+Version:      2.8.19
 Requires at least: 6.7
 Text Domain:  ws-europe
 License:      GPL-2.0-or-later
@@ -253,6 +253,10 @@ a.ws-emblem:hover, a.ws-emblem:focus-visible { transform: scale(1.03); }
 .ws-identity__contact .ws-btn-gold { width: 100%; justify-content: center; }
 .ws-btn-outline { display: flex; justify-content: center; text-align: center; box-sizing: border-box; margin-top: .6rem; padding: .75em 1em; border: 1px solid var(--ws-gold-dark); border-radius: 3px; color: var(--ws-gold-dark) !important; text-decoration: none; font-weight: 700; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; }
 .ws-btn-outline:hover { background: rgba(201, 162, 74, .12); }
+.ws-news-card__source { margin: .5rem 0 0; font-size: .8rem; color: var(--ws-muted); }
+.ws-news-byline { margin-top: var(--wp--preset--spacing--40); padding-top: .75rem; border-top: 1px solid var(--ws-line); font-size: .9rem; color: var(--ws-muted); }
+.ws-news-source a { color: var(--ws-gold-dark); font-weight: 600; text-decoration: none; }
+.ws-news-source a:hover { text-decoration: underline; }
 .ws-thank-you { max-width: 44rem; margin: 0 auto; padding: clamp(1.5rem, 4vw, 2.5rem); background: var(--ws-surface); border: 1px solid var(--ws-line); border-top: 3px solid var(--ws-gold); border-radius: var(--ws-radius); text-align: center; }
 .ws-thank-you__kicker { margin: 0; font-size: .8rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--ws-gold-dark); }
 .ws-thank-you__title { margin: .4rem 0 1rem; text-transform: uppercase; }
