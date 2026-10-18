@@ -27,6 +27,7 @@ add_action( 'init', function () {
 		$id = (int) get_option( 'page_for_posts' );
 		return esc_url( $id ? get_permalink( $id ) : home_url( '/' ) );
 	} );
+	add_shortcode( 'ws_site_logo', 'ws_europe_site_logo' );
 	add_shortcode( 'ws_home_url', function () {
 		return esc_url( home_url( '/' ) );
 	} );
@@ -71,3 +72,29 @@ function ws_europe_stats_bar() {
 	}
 	return $out . '<blockquote class="ws-stat-quote"><p>' . esc_html__( '“Different roads. Same values. One brotherhood.”', 'ws-europe' ) . '</p></blockquote></div>';
 }
+
+/**
+ * Site logo: the one uploaded under Appearance → Editor (Site Logo) / Settings, otherwise the
+ * Widows Sons emblem that ships with the theme.
+ */
+function ws_europe_site_logo() {
+	$id = (int) get_theme_mod( 'custom_logo' ) ?: (int) get_option( 'site_logo' );
+	if ( $id && wp_attachment_is_image( $id ) ) {
+		return wp_get_attachment_image( $id, 'medium', false, array( 'class' => 'ws-logo', 'alt' => get_bloginfo( 'name' ) ) );
+	}
+	return sprintf(
+		'<img class="ws-logo" src="%s" width="640" height="339" alt="%s">',
+		esc_url( get_stylesheet_directory_uri() . '/assets/ws-logo.png' ),
+		esc_attr__( 'Widows Sons emblem', 'ws-europe' )
+	);
+}
+
+/* Browser-tab icon: the emblem, unless a Site Icon has been set in the admin. */
+add_action( 'wp_head', function () {
+	if ( has_site_icon() ) {
+		return;
+	}
+	$icon = esc_url( get_stylesheet_directory_uri() . '/assets/ws-icon.png' );
+	echo '<link rel="icon" href="' . $icon . '" sizes="512x512">' . "\n";
+	echo '<link rel="apple-touch-icon" href="' . $icon . '">' . "\n";
+}, 1 );
