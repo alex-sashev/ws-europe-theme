@@ -103,12 +103,13 @@ function ws_europe_site_mark() {
 	);
 }
 
-/* Browser-tab icon: the winged-triangle mark, unless a Site Icon has been set in the admin. */
+/* Browser-tab icon: the winged triangle and eye on black, unless a Site Icon has been set in the admin. */
 add_action( 'wp_head', function () {
 	if ( has_site_icon() ) {
 		return;
 	}
-	$icon = esc_url( get_stylesheet_directory_uri() . '/assets/ws-icon.png' );
-	echo '<link rel="icon" href="' . $icon . '" sizes="512x512">' . "\n";
-	echo '<link rel="apple-touch-icon" href="' . $icon . '">' . "\n";
+	$base = get_stylesheet_directory_uri() . '/assets/';
+	echo '<link rel="icon" href="' . esc_url( $base . 'ws-icon-32.png' ) . '" sizes="32x32">' . "\n";
+	echo '<link rel="icon" href="' . esc_url( $base . 'ws-icon.png' ) . '" sizes="512x512">' . "\n";
+	echo '<link rel="apple-touch-icon" href="' . esc_url( $base . 'ws-icon-180.png' ) . '">' . "\n";
 }, 1 );
