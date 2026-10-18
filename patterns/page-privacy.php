@@ -3,7 +3,7 @@
  * Title: Privacy policy page
  * Slug: ws-europe/page-privacy
  * Categories: text
- * Description: Privacy policy for Widows Sons Europe (GDPR). Website address and contact emails in [square brackets] are filled in once the domain is booked.
+ * Description: Privacy policy for Widows Sons Europe (GDPR). Contact emails in [square brackets] are filled in once the mailboxes exist.
  * Keywords: privacy, gdpr, policy
  * Post Types: page
  */
@@ -65,7 +65,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Website: Widows Sons Europe<br>Website address: [European website URL]<br>European website administrator: Widows Sons Masonic Riders Association, Inc. (WSMRA Inc.)<br>Contact email: [European website contact email]<br>Privacy inquiries: [European privacy contact email]</p>
+<p>Website: Widows Sons Europe<br>Website address: <a href="https://widowssonseurope.org">https://widowssonseurope.org</a><br>European website administrator: Widows Sons Masonic Riders Association, Inc. (WSMRA Inc.)<br>Contact email: [European website contact email]<br>Privacy inquiries: [European privacy contact email]</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -761,7 +761,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Widows Sons Europe<br>Website: [European website URL]<br>Email: [European website contact email]<br>Privacy inquiries: [European privacy contact email]</p>
+<p>Widows Sons Europe<br>Website: <a href="https://widowssonseurope.org">https://widowssonseurope.org</a><br>Email: [European website contact email]<br>Privacy inquiries: [European privacy contact email]</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
