@@ -3,7 +3,7 @@
  * Title: Privacy policy page
  * Slug: ws-europe/page-privacy
  * Categories: text
- * Description: Privacy policy for Widows Sons Europe (GDPR). Text in [square brackets] must be filled in before launch.
+ * Description: Privacy policy for Widows Sons Europe (GDPR). Website address and contact emails in [square brackets] are filled in once the domain is booked.
  * Keywords: privacy, gdpr, policy
  * Post Types: page
  */
@@ -65,7 +65,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Website: Widows Sons Europe<br>Website address: [European website URL]<br>European website administrator: [Responsible European organization or designated legal entity]<br>Contact email: [European website contact email]<br>Privacy inquiries: [European privacy contact email]<br>Registered address: [Address, where applicable]</p>
+<p>Website: Widows Sons Europe<br>Website address: [European website URL]<br>European website administrator: Widows Sons Masonic Riders Association, Inc. (WSMRA Inc.)<br>Contact email: [European website contact email]<br>Privacy inquiries: [European privacy contact email]</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -73,11 +73,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The organization legally responsible for determining the purposes and means of processing personal data through the European website is:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>[Confirmed legal name of the data controller]<br>[Registered address]<br>[Privacy contact email]</p>
+<p>The organization legally responsible for determining the purposes and means of processing personal data through the European website is Widows Sons Masonic Riders Association, Inc. (WSMRA Inc.).</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -507,22 +503,7 @@
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li>Contact inquiries: [Approved retention period].</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Event submissions: [Approved retention period].</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Published event records: [Approved retention period or archival policy].</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
 <li>Website administrator accounts: For the duration of authorized access, followed by the approved account-removal period.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Technical and security logs: [Approved retention period].</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Consent records: [Approved retention period].</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li>Published articles and media: According to their documented editorial purpose and applicable legal requirements.</li>
