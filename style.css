@@ -2,7 +2,7 @@
 Theme Name:   Widows Sons Europe
 Description:  Child theme of Twenty Twenty-Five for Widows Sons chapters in Europe. Modern and clean, black and gold: "Brotherhood beyond borders". Country and chapter pages, map of Europe, events and news via the ws-chapters plugin.
 Template:     twentytwentyfive
-Version:      2.3.0
+Version:      2.4.0
 Requires at least: 6.7
 Text Domain:  ws-europe
 License:      GPL-2.0-or-later
@@ -70,6 +70,7 @@ body { -webkit-font-smoothing: antialiased; }
 .ws-brand { align-items: center; }
 .ws-header__logo { display: block; line-height: 0; }
 .ws-header__logo .ws-logo { height: 46px; width: auto; display: block; }
+.ws-header__logo .ws-logo--mark { height: 44px; }
 .ws-footer__brand-row { display: flex; align-items: center; gap: 14px; margin-bottom: 1rem; }
 .ws-footer__brand-row .ws-wordmark { margin-bottom: 0; }
 .ws-footer__logo .ws-logo { height: 64px; width: auto; display: block; }

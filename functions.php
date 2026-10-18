@@ -28,6 +28,7 @@ add_action( 'init', function () {
 		return esc_url( $id ? get_permalink( $id ) : home_url( '/' ) );
 	} );
 	add_shortcode( 'ws_site_logo', 'ws_europe_site_logo' );
+	add_shortcode( 'ws_site_mark', 'ws_europe_site_mark' );
 	add_shortcode( 'ws_home_url', function () {
 		return esc_url( home_url( '/' ) );
 	} );
@@ -89,7 +90,20 @@ function ws_europe_site_logo() {
 	);
 }
 
-/* Browser-tab icon: the emblem, unless a Site Icon has been set in the admin. */
+/** Header mark: the uploaded Site Logo if there is one, otherwise the winged-triangle mark. */
+function ws_europe_site_mark() {
+	$id = (int) get_theme_mod( 'custom_logo' ) ?: (int) get_option( 'site_logo' );
+	if ( $id && wp_attachment_is_image( $id ) ) {
+		return ws_europe_site_logo();
+	}
+	return sprintf(
+		'<img class="ws-logo ws-logo--mark" src="%s" width="440" height="186" alt="%s">',
+		esc_url( get_stylesheet_directory_uri() . '/assets/ws-mark.png' ),
+		esc_attr__( 'Widows Sons emblem', 'ws-europe' )
+	);
+}
+
+/* Browser-tab icon: the winged-triangle mark, unless a Site Icon has been set in the admin. */
 add_action( 'wp_head', function () {
 	if ( has_site_icon() ) {
 		return;
