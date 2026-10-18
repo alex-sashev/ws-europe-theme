@@ -2,7 +2,7 @@
 Theme Name:   Widows Sons Europe
 Description:  Child theme of Twenty Twenty-Five for Widows Sons chapters in Europe. Modern and clean, black and gold: "Brotherhood beyond borders". Country and chapter pages, map of Europe, events and news via the ws-chapters plugin.
 Template:     twentytwentyfive
-Version:      2.4.2
+Version:      2.5.0
 Requires at least: 6.7
 Text Domain:  ws-europe
 License:      GPL-2.0-or-later
@@ -86,6 +86,9 @@ body { -webkit-font-smoothing: antialiased; }
 .ws-header .wp-block-navigation .current-menu-item > a,
 .ws-header .wp-block-navigation [aria-current="page"] { color: var(--ws-gold-light); border-bottom-color: var(--ws-gold); }
 .ws-header .wp-block-navigation__responsive-container-open, .ws-header .wp-block-navigation__responsive-container-close { color: var(--ws-on-dark); }
+.ws-header .wp-block-navigation .ws-nav-cta > a { padding: .45rem .9rem; border: 1px solid var(--ws-gold); border-radius: 3px; color: var(--ws-gold-light); }
+.ws-header .wp-block-navigation .ws-nav-cta > a:hover, .ws-header .wp-block-navigation .ws-nav-cta > a[aria-current="page"] { background: var(--ws-gold); color: var(--ws-ink); border-bottom-color: var(--ws-gold); }
+@media (max-width: 1180px) { .ws-header .wp-block-navigation { font-size: .85rem; } .ws-header .wp-block-navigation .wp-block-navigation__container { gap: 14px; } .ws-wordmark__name { font-size: 1.1rem; } }
 .ws-header__search .wp-block-search__button { background: transparent; color: var(--ws-on-dark); border: 0; padding: 6px; }
 .ws-header__search .wp-block-search__button:hover { color: var(--ws-gold-light); }
 .ws-header__search .wp-block-search__input { background: var(--ws-ink-2); color: var(--ws-on-dark); border: 1px solid var(--ws-gold-dark); }
@@ -234,6 +237,10 @@ body { -webkit-font-smoothing: antialiased; }
 .ws-identity__item p { margin: 0; font-size: .85rem; color: var(--ws-muted); }
 .ws-identity__country { margin: 1rem 0 0; font-size: .9rem; }
 .ws-identity__contact .ws-btn-gold { width: 100%; justify-content: center; }
+.ws-btn-outline { display: flex; justify-content: center; margin-top: .6rem; padding: .75em 1em; border: 1px solid var(--ws-gold-dark); border-radius: 3px; color: var(--ws-gold-dark) !important; text-decoration: none; font-weight: 700; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; }
+.ws-btn-outline:hover { background: rgba(201, 162, 74, .12); }
+.ws-form fieldset { background: var(--ws-surface); border-color: var(--ws-line); }
+.ws-form legend { color: var(--ws-ink); }
 
 /* Chapter rows on the country page */
 .ws-chapter-rows { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 440px), 1fr)); gap: 1rem; }
