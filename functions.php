@@ -34,7 +34,8 @@ add_action( 'init', function () {
 	} );
 	add_shortcode( 'ws_stats_bar', 'ws_europe_stats_bar' );
 	add_shortcode( 'ws_admin_url', function () {
-		return esc_url( wp_login_url() );
+		$members = get_page_by_path( 'members' );
+		return esc_url( $members ? wp_login_url( get_permalink( $members ) ) : wp_login_url() );
 	} );
 	add_shortcode( 'ws_year', function () {
 		return esc_html( wp_date( 'Y' ) );
