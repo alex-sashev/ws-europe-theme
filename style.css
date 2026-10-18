@@ -2,7 +2,7 @@
 Theme Name:   Widows Sons Europe
 Description:  Child theme of Twenty Twenty-Five for Widows Sons chapters in Europe. Modern and clean, black and gold: "Brotherhood beyond borders". Country and chapter pages, map of Europe, events and news via the ws-chapters plugin.
 Template:     twentytwentyfive
-Version:      2.0.1
+Version:      2.0.2
 Requires at least: 6.7
 Text Domain:  ws-europe
 License:      GPL-2.0-or-later
@@ -95,11 +95,12 @@ body { -webkit-font-smoothing: antialiased; }
 /* ---------- Home hero ---------- */
 
 .ws-hero.wp-block-cover { padding: 0; background: var(--ws-ink) radial-gradient(ellipse at 75% 30%, #2b2416 0%, var(--ws-ink) 60%); }
-.ws-hero.wp-block-cover::after {
-	content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none;
-	background: linear-gradient(90deg, rgba(11, 11, 12, .92) 0%, rgba(11, 11, 12, .7) 45%, rgba(11, 11, 12, .2) 100%), linear-gradient(0deg, rgba(11, 11, 12, .85), transparent 40%);
+/* Darken the photo on the cover's own overlay layer, which WordPress keeps below the text. */
+.ws-hero.wp-block-cover .wp-block-cover__background {
+	opacity: 1 !important; background-color: transparent !important;
+	background-image: linear-gradient(90deg, rgba(11, 11, 12, .92) 0%, rgba(11, 11, 12, .7) 45%, rgba(11, 11, 12, .2) 100%), linear-gradient(0deg, rgba(11, 11, 12, .85), transparent 40%) !important;
 }
-.ws-hero.wp-block-cover .wp-block-cover__inner-container { position: relative; z-index: 2; padding: var(--wp--preset--spacing--70) var(--wp--preset--spacing--50) var(--wp--preset--spacing--60); }
+.ws-hero.wp-block-cover .wp-block-cover__inner-container { padding: var(--wp--preset--spacing--70) var(--wp--preset--spacing--50) var(--wp--preset--spacing--60); }
 .ws-hero__content { color: var(--ws-on-dark); }
 .ws-hero__title { margin: 0; font-family: var(--ws-display); font-weight: 700; font-size: clamp(3rem, 8.5vw, 6.25rem); line-height: .95; text-transform: uppercase; color: #fff; letter-spacing: .01em; }
 .ws-hero__title span { display: block; color: var(--ws-gold); background: linear-gradient(180deg, var(--ws-gold-light), var(--ws-gold) 55%, var(--ws-gold-dark)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
