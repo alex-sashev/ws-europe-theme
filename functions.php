@@ -13,7 +13,7 @@ add_action( 'wp_enqueue_scripts', function () {
 
 add_action( 'admin_notices', function () {
 	if ( ! function_exists( 'ws_chapter_card' ) && current_user_can( 'activate_plugins' ) ) {
-		echo '<div class="notice notice-warning"><p>' . esc_html__( 'The Widows Sons Europe theme needs the "Widows Sons Chapters" plugin for chapter pages, the directory and the map.', 'ws-europe' ) . '</p></div>';
+		echo '<div class="notice notice-warning"><p>' . esc_html__( 'This theme requires the “Widows Sons Chapters” plugin to display chapter profiles, the directory and the map.', 'ws-europe' ) . '</p></div>';
 	}
 } );
 
@@ -58,10 +58,10 @@ function ws_europe_stats_bar() {
 		'hands'  => '<path d="M4 24l8-8 8 4 6-4 8 2 10 6M10 22l10 10a3 3 0 0 0 4-4M18 30l4 4a3 3 0 0 0 4-4M22 26l6 6a3 3 0 0 0 4-4l-8-8"/>',
 	);
 	$items = array(
-		array( 'people', $chapters, __( 'Chapters across Europe', 'ws-europe' ) ),
-		array( 'pin', $countries, __( 'Countries', 'ws-europe' ) ),
-		array( 'road', __( 'Thousands', 'ws-europe' ), __( 'Of kilometres together', 'ws-europe' ) ),
-		array( 'hands', __( 'One', 'ws-europe' ), __( 'Brotherhood', 'ws-europe' ) ),
+		array( 'people', $chapters, __( 'Listed chapters', 'ws-europe' ) ),
+		array( 'pin', $countries, __( 'Countries represented', 'ws-europe' ) ),
+		array( 'road', __( 'Shared', 'ws-europe' ), __( 'Journeys and experiences', 'ws-europe' ) ),
+		array( 'hands', __( 'One', 'ws-europe' ), __( 'Spirit of brotherhood', 'ws-europe' ) ),
 	);
 	$out = '<div class="ws-stats-bar__inner">';
 	foreach ( $items as $item ) {
@@ -72,7 +72,7 @@ function ws_europe_stats_bar() {
 			esc_html( $item[2] )
 		);
 	}
-	return $out . '<blockquote class="ws-stat-quote"><p>' . esc_html__( '“Different roads. Same values. One brotherhood.”', 'ws-europe' ) . '</p></blockquote></div>';
+	return $out . '<blockquote class="ws-stat-quote"><p>' . esc_html__( '“Different roads. Shared values. Brotherhood beyond borders.”', 'ws-europe' ) . '</p></blockquote></div>';
 }
 
 /**

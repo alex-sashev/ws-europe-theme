@@ -9,16 +9,16 @@
  */
 ?>
 <!-- wp:paragraph {"className":"ws-lead-dark"} -->
-<p class="ws-lead-dark">We think good, do good and look for the good. If you are a brother who rides, or would like to support our work, we would like to hear from you.</p>
+<p class="ws-lead-dark">Whether you are a Masonic rider looking to connect with a local chapter, a chapter representative sharing an event, or a potential charity partner, start with the relevant contact below.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
 <div class="ws-value-grid">
 	<div class="ws-card">
-		<p class="ws-card__kicker">Join or ride with us</p>
-		<h3 class="ws-card__title">Contact a chapter</h3>
-		<p>Membership and chapter matters are handled by each national Grand Chapter. Find a chapter near you and get in touch.</p>
-		<p><a href="[ws_chapters_url]">Chapters →</a></p>
+		<p class="ws-card__kicker">Find your local brotherhood</p>
+		<h3 class="ws-card__title">Find and Contact a Chapter</h3>
+		<p>Membership and local chapter enquiries are managed by the relevant national organization or chapter. Use the directory to find the appropriate contact.</p>
+		<p><a href="[ws_chapters_url]">Explore chapters →</a></p>
 	</div>
 	<div class="ws-card ws-card--join">
 		<p class="ws-card__kicker">Membership</p>
@@ -27,9 +27,9 @@
 		<p><a class="ws-btn-gold" href="[ws_page_url slug=join]">Apply</a></p>
 	</div>
 	<div class="ws-card">
-		<p class="ws-card__kicker">General enquiries</p>
-		<h3 class="ws-card__title">Widows Sons Europe</h3>
-		<p>Contact email to be confirmed.</p>
+		<p class="ws-card__kicker">Website and cooperation enquiries</p>
+		<h3 class="ws-card__title">European Website Contact</h3>
+		<p>The public website contact address will be published once confirmed by the site administrators.</p>
 	</div>
 </div>
 <!-- /wp:html -->
