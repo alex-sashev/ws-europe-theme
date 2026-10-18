@@ -2,7 +2,7 @@
 Theme Name:   Widows Sons Europe
 Description:  Child theme of Twenty Twenty-Five for Widows Sons chapters in Europe. Modern and clean, black and gold: "Brotherhood beyond borders". Country and chapter pages, map of Europe, events and news via the ws-chapters plugin.
 Template:     twentytwentyfive
-Version:      2.8.1
+Version:      2.8.2
 Requires at least: 6.7
 Text Domain:  ws-europe
 License:      GPL-2.0-or-later
@@ -40,7 +40,7 @@ body { -webkit-font-smoothing: antialiased; }
 /* ---------- Buttons & small type ---------- */
 
 .ws-btn-gold, .ws-btn-ghost {
-	display: inline-flex; align-items: center; gap: .5rem;
+	display: inline-flex; align-items: center; gap: .5rem; box-sizing: border-box; max-width: 100%;
 	padding: .8em 1.4em; border-radius: 3px; text-decoration: none;
 	font-family: var(--ws-body); font-weight: 700; font-size: .85rem; letter-spacing: .1em; text-transform: uppercase;
 	transition: background .15s, color .15s, border-color .15s;
@@ -241,7 +241,7 @@ body { -webkit-font-smoothing: antialiased; }
 .ws-identity__item p { margin: 0; font-size: .85rem; color: var(--ws-muted); }
 .ws-identity__country { margin: 1rem 0 0; font-size: .9rem; }
 .ws-identity__contact .ws-btn-gold { width: 100%; justify-content: center; }
-.ws-btn-outline { display: flex; justify-content: center; margin-top: .6rem; padding: .75em 1em; border: 1px solid var(--ws-gold-dark); border-radius: 3px; color: var(--ws-gold-dark) !important; text-decoration: none; font-weight: 700; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; }
+.ws-btn-outline { display: flex; justify-content: center; box-sizing: border-box; margin-top: .6rem; padding: .75em 1em; border: 1px solid var(--ws-gold-dark); border-radius: 3px; color: var(--ws-gold-dark) !important; text-decoration: none; font-weight: 700; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; }
 .ws-btn-outline:hover { background: rgba(201, 162, 74, .12); }
 .ws-form fieldset { background: var(--ws-surface); border-color: var(--ws-line); }
 .ws-form legend { color: var(--ws-ink); }
