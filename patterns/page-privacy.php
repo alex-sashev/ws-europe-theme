@@ -37,7 +37,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This Privacy Policy explains what information we collect, how we use it, who may access it, and the rights of individuals whose personal data we process.</p>
+<p>This Privacy Policy explains what information we collect, why we collect it, the legal basis we rely on, who may access it, how long we keep it, and the rights of individuals whose personal data we process.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -77,11 +77,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Where WSMRA Inc. and a European organization jointly determine the purposes and means of particular processing activities, their respective data protection responsibilities will be documented and communicated as required by applicable law.</p>
+<p>Where WSMRA Inc. and a national organization or chapter jointly determine the purposes and means of particular processing activities, their respective data protection responsibilities will be documented and communicated as required by applicable law.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>National organizations and individual chapters may independently act as data controllers for activities operated through their own websites or services.</p>
+<p>National organizations and individual chapters may independently act as data controllers for activities operated through their own websites or services, and for membership decisions they take after receiving an application through this website.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -89,76 +89,111 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We may collect the following information when visitors interact with our website.</p>
+<p>We collect only the information reasonably necessary for the purposes described in this policy.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Information provided directly</h3>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<ul class="wp-block-list">
-<!-- wp:list-item -->
-<li>Name and email address.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Telephone number, where voluntarily provided.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Country and chapter affiliation.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Contact form messages.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Event submissions.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Photographs, event posters, and other media.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>News and charity project contributions.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Information provided by authorized chapter representatives.</li>
-<!-- /wp:list-item -->
-</ul>
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Website administration information</h3>
+<h3 class="wp-block-heading">Membership applications</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Authorized national and chapter administrators may provide:</p>
+<p>When you apply to join a chapter through the website, we collect:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li>Name and email address.</li>
+<li>First and last name.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Username and account credentials.</li>
+<li>Email address and telephone number.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Assigned country and chapter.</li>
+<li>Your Masonic lodge.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Website permissions and access roles.</li>
+<li>The country and chapter you are applying to.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Content updates and publication activity.</li>
+<li>Any message you choose to add.</li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Automatically collected technical information</h3>
+<h3 class="wp-block-heading">Event submissions</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Depending on the website configuration, technical records may include:</p>
+<p>When you submit an event, we collect:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Your name and email address, so that administrators can contact you about the submission.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>The event details: title, description, dates, time, country, city, venue, organizing chapter, and the contact details for riders that you choose to provide.</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Chapter and country information</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Authorized national and chapter representatives provide the information shown on country and chapter pages, such as names, descriptions, cities, contact email addresses, telephone numbers, websites, social media links, logos, back patches, and photographs.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Member and administrator accounts</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Members, chapter editors, country administrators, and site administrators have personal accounts. For these we hold:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Road name and email address.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Password, stored only in encrypted (hashed) form.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Role, and the country or chapter assigned to the account.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Content you create or update, and when you did so.</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Members' library</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Signed-in members may upload documents and links to the members' library. We store the file or link, its title, description, type, date, and which member added it.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Correspondence</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If you email us, we keep your message, your email address, and any other details you include, so that we can reply.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Technical information</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>When you visit the website, the hosting server automatically records technical information needed to deliver the pages and keep them secure:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
@@ -170,77 +205,74 @@
 <li>Browser and device information.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Access dates and timestamps.</li>
+<li>Pages requested, with dates and times.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Security and diagnostic logs.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Cookie preferences.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Website usage statistics, where analytics are enabled.</li>
+<li>Security and error logs.</li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>We collect only information reasonably necessary for the website's operation and stated purposes.</p>
+<p>We do not use analytics, advertising, or tracking tools.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading">4. How We Use Personal Information</h2>
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Information about Masonic membership</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Personal information may be used to:</p>
+<p>Information showing that a person is a Freemason, such as their lodge, may reveal philosophical beliefs and is therefore treated with extra care as a special category of personal data under the GDPR. We use it only to handle membership applications and to run the association's activities, as described in Sections 4 and 7.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">4. How We Use Personal Information and Our Legal Basis</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We use personal information only for the purposes below. For each purpose, the GDPR legal basis is shown.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li>Respond to inquiries and correspondence.</li>
+<li>Handling membership applications and passing them to the chapter you chose: your explicit consent, given on the application form (GDPR Art. 6(1)(a) and Art. 9(2)(a)).</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Provide information about Widows Sons organizations and chapters.</li>
+<li>Reviewing and publishing events, and contacting the person who submitted them: your consent, given on the submission form (Art. 6(1)(a)).</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Review and publish European motorcycle events.</li>
+<li>Publishing country and chapter information: our legitimate interest in presenting the association and helping riders find their local chapter (Art. 6(1)(f)); where a named representative's personal contact details are shown, their consent (Art. 6(1)(a)).</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Coordinate communication between participating chapters.</li>
+<li>Providing member and administrator accounts and the members' library: providing the membership services you have signed up for (Art. 6(1)(b)), and the legitimate activities of a not-for-profit association with a philosophical aim, limited to its members (Art. 9(2)(d)).</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Manage country and chapter profiles.</li>
+<li>Replying to correspondence: our legitimate interest in answering questions (Art. 6(1)(f)).</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Publish news and charitable activities.</li>
+<li>Protecting the website against misuse, spam, and unauthorized access: our legitimate interest in keeping the website secure (Art. 6(1)(f)).</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Maintain authorized administrative access.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Protect the website from unauthorized activity.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Improve website functionality and navigation.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Meet applicable legal obligations.</li>
+<li>Meeting legal obligations: compliance with the law (Art. 6(1)(c)).</li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>We do not sell or rent personal information.</p>
+<p>Where we rely on legitimate interests, we have weighed them against the rights and freedoms of the people concerned.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Where different processing purposes rely on different legal grounds, the applicable basis may include legitimate interests, consent, performance of an agreement, or compliance with a legal obligation.</p>
+<p>Where we rely on consent, you can withdraw it at any time, without affecting anything done before you withdrew it.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Where legitimate interests are relied upon, we assess the rights and freedoms of affected individuals.</p>
+<p>Fields marked as required on our forms are needed to handle your application or submission; without them we cannot process it. All other fields are optional.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>We do not sell or rent personal information, we do not send marketing emails, and we do not make decisions about anyone by automated means or profiling.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -273,7 +305,7 @@
 <li>Publicly designated representatives.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Public contact email addresses.</li>
+<li>Public contact email addresses and telephone numbers.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li>Official websites and social media accounts.</li>
@@ -289,6 +321,10 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
+<p>Representatives may ask at any time for their details to be corrected or removed.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
 <p>Private member directories, personal contact details, and internal organizational information will not be made publicly available without an appropriate legal basis and authorization.</p>
 <!-- /wp:paragraph -->
 
@@ -301,37 +337,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Event submissions may include:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul class="wp-block-list">
-<!-- wp:list-item -->
-<li>Submitter's name and contact information.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Event title and description.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Organizing country and chapter.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Location and event dates.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Event photographs and posters.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Public event contact information.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Registration links and related details.</li>
-<!-- /wp:list-item -->
-</ul>
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-<p>All submissions are subject to administrative review.</p>
+<p>All submissions are subject to administrative review. When an event is submitted, the site administrators and the country administrators for that country are notified by email.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -343,15 +349,61 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Personal contact information used for submission administration will not automatically be made public.</p>
+<p>The submitter's name and email address are used only to handle the submission and are never published.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Approved event information may appear in the European calendar and associated country and chapter pages.</p>
+<p>If the event is approved, its details, including the contact details for riders entered in the form, appear in the European calendar and on the related country and chapter pages.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">7. Photographs, Logos and Intellectual Property</h2>
+<h2 class="wp-block-heading">7. Membership Applications</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Membership of Widows Sons is open to Master Masons. When you apply through the website:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Your application is emailed to the contact address of the chapter you chose and to the site administrators.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>A copy is kept in the website's administration area, where only site administrators can see it.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Your application is never published on the website.</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>The decision on membership is taken by the chapter, not by the website. Once the chapter has received your application, it handles your details as part of its own membership process.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If you change your mind, contact us and we will delete your application from the website and ask the chapter to do the same.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">8. Member Accounts and the Members' Library</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Member accounts are created by administrators for members of participating chapters.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The members' library is visible only to signed-in members. Documents can be downloaded only by signed-in members, and each download link is checked before the file is sent.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Members should upload only material they are entitled to share with other members, and should avoid uploading documents containing other people's personal details unless this is necessary.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">9. Photographs, Logos and Intellectual Property</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -363,7 +415,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Where photographs identify individuals, publication must have an appropriate lawful basis.</p>
+<p>Where photographs identify individuals, publication must have an appropriate lawful basis. Anyone who appears in a published photograph can ask for it to be removed.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -383,50 +435,78 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">8. Cookies and Analytics</h2>
+<h2 class="wp-block-heading">10. Cookies</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The website may use cookies and similar technologies to support:</p>
+<p>The website uses only the essential cookies that WordPress needs to work. It does not use analytics, advertising, or social media tracking cookies, so no cookie consent is needed for visitors who simply browse the site.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Cookies are set only when someone signs in:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li>Essential website functionality.</li>
+<li>wordpress_test_cookie: checks that your browser accepts cookies when you open the sign-in page. Deleted when you close the browser.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Secure administrator authentication.</li>
+<li>wordpress_…, wordpress_sec_…, and wordpress_logged_in_… (each followed by a unique code): keep you signed in. Deleted when you close the browser, or after 14 days if you choose "Remember me".</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Language and display preferences.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Security and anti-spam protection.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Website analytics, where enabled.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Optional embedded content, including calendars, maps, and videos.</li>
+<li>wp-settings-… and wp-settings-time-… (followed by your account number): remember display preferences in the administration area for signed-in users. Kept for one year.</li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Non-essential cookies and tracking technologies requiring consent will not be activated before valid consent has been obtained.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Visitors can manage their preferences through the website's cookie settings.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Further information is available in our Cookie Policy.</p>
+<p>Our forms do not set cookies. If we ever add cookies that are not essential, we will ask for your consent first and update this policy.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">9. Information Sharing</h2>
+<h2 class="wp-block-heading">11. Third-Party Services</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>To display the website, your browser loads some files directly from the following providers. When it does, the provider receives your IP address and basic browser information, as with any web request:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Google Fonts (Google): the website's fonts.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>cdnjs (Cloudflare): the software that draws the interactive map.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>jsDelivr: the country outlines on the map, the country flags, and a supporting map file.</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>To place chapters on the map, the website looks up the chapter's city on OpenStreetMap Nominatim. Only the city and country name are sent; no visitor information is involved.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>We also use service providers that process personal data on our behalf, under contracts that require them to protect it:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Our website hosting provider, which stores the website and its database.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Our email delivery provider, which sends the website's notification emails.</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">12. Information Sharing</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -436,29 +516,22 @@
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li>Authorized European website administrators.</li>
+<li>Authorized site administrators.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Authorized national and chapter representatives, within their assigned responsibilities.</li>
+<li>Country administrators and chapter editors, limited to their assigned country or chapter.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>WSMRA Inc., when necessary and lawful for legitimate organizational purposes.</li>
+<li>The chapter you chose, when you apply for membership.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Website hosting and technical service providers.</li>
+<li>Service providers that process data on our behalf, as described in Section 11.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Email and security service providers.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>Public authorities where legally required.</li>
+<li>Public authorities, where legally required.</li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
-
-<!-- wp:paragraph -->
-<p>Sharing with WSMRA Inc. is not automatic and will be limited to appropriate purposes and lawful arrangements.</p>
-<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>Publicly published country, chapter, and event information may be viewed by website visitors.</p>
@@ -469,64 +542,71 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">10. International Data Transfers</h2>
+<h2 class="wp-block-heading">13. International Data Transfers</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Because Widows Sons is an international association, some communications or services may involve organizations or providers located outside the European Economic Area, including the United States.</p>
+<p>Because Widows Sons is an international association, and WSMRA Inc. is based in the United States, personal data may be accessed from or transferred to countries outside the European Economic Area, including the United States.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Where personal data is transferred internationally, we will apply appropriate legal safeguards as required by GDPR.</p>
+<p>Where personal data is transferred internationally, we use the safeguards required by the GDPR, such as an adequacy decision of the European Commission (including the EU-U.S. Data Privacy Framework where the recipient is certified) or the European Commission's Standard Contractual Clauses.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Such safeguards may include applicable adequacy decisions, Standard Contractual Clauses, or other lawful mechanisms.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>The relationship with WSMRA Inc. does not remove the data protection obligations applicable to the European website.</p>
+<p>You can ask us for more information about these safeguards using the privacy contact details in Section 2.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">11. Data Retention</h2>
+<h2 class="wp-block-heading">14. Data Retention</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 <p>We retain personal information only for as long as reasonably necessary for the purpose for which it was collected or as required by law.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>Retention periods may vary depending on the type of information.</p>
-<!-- /wp:paragraph -->
-
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li>Website administrator accounts: For the duration of authorized access, followed by the approved account-removal period.</li>
+<li>Membership applications: kept only as long as needed to pass them to the chapter and handle follow-up questions.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Published articles and media: According to their documented editorial purpose and applicable legal requirements.</li>
+<li>Event submissions that are not published: kept only as long as needed to complete the review.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Published events, chapter pages, articles, and media: kept while they serve the purpose for which they were published, and archived or removed when they no longer do.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Member and administrator accounts: kept while access is needed, and deleted when access ends.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Members' library documents: kept until the member who added them, or an administrator, removes them.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Correspondence: kept as long as needed to deal with the matter.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Server and security logs: kept for the limited period set by our hosting provider.</li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Information that is no longer required will be deleted, anonymized, or archived in accordance with applicable law and the organization's retention procedures.</p>
+<p>Information that is no longer required will be deleted, anonymized, or archived in accordance with applicable law.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">12. Your Data Protection Rights</h2>
+<h2 class="wp-block-heading">15. Your Data Protection Rights</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Under the GDPR, subject to applicable legal conditions, individuals may have the right to:</p>
+<p>Under the GDPR, subject to applicable legal conditions, you have the right to:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li>Access their personal data.</li>
+<li>Access your personal data and receive a copy of it.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li>Correct inaccurate information.</li>
@@ -544,10 +624,10 @@
 <li>Request data portability where applicable.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Withdraw consent where processing is based on consent.</li>
+<li>Withdraw consent at any time where processing is based on consent.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Lodge a complaint with a competent supervisory authority.</li>
+<li>Lodge a complaint with a data protection supervisory authority, in particular in the EU country where you live, work, or where you believe an infringement took place.</li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
@@ -561,57 +641,53 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Where appropriate, we may coordinate with the relevant organization to ensure requests are handled by the responsible data controller.</p>
+<p>We may need to confirm your identity before acting on a request. Where appropriate, we may coordinate with the relevant organization to ensure requests are handled by the responsible data controller.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We will respond to valid requests within the time limits required by applicable law.</p>
+<p>We will respond within one month of receiving your request. Where a request is complex, this may be extended by up to two further months, and we will tell you if so.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">13. Information Security</h2>
+<h2 class="wp-block-heading">16. Information Security</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We use reasonable technical and organizational safeguards to protect personal information.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>These may include:</p>
+<p>We use reasonable technical and organizational safeguards to protect personal information, including:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li>Encrypted website connections.</li>
+<li>Encrypted website connections (HTTPS).</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Restricted administrator access.</li>
+<li>Passwords stored only in encrypted (hashed) form.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Secure authentication.</li>
+<li>Role-based access, so that country and chapter administrators see only what their role requires.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Role-based country and chapter permissions.</li>
+<li>Membership applications visible only to site administrators.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Software security updates.</li>
+<li>Members' documents available only to signed-in members.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Website backups.</li>
+<li>Spam protection on our forms.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Administrative activity monitoring.</li>
+<li>Regular software security updates and website backups.</li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>While reasonable measures are applied, no system can guarantee absolute security.</p>
+<p>While reasonable measures are applied, no system can guarantee absolute security. If a personal data breach occurs that puts people's rights at risk, we will notify the competent supervisory authority, and the people affected where required, as the GDPR requires.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">14. External Websites and Social Media</h2>
+<h2 class="wp-block-heading">17. External Websites and Social Media</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -647,23 +723,19 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">15. Children's Privacy</h2>
+<h2 class="wp-block-heading">18. Children's Privacy</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>This website is primarily intended for adult audiences.</p>
+<p>This website is intended for adults. Membership is open only to Master Masons, and our forms are not intended for children, so we do not knowingly collect personal data from children through them.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We do not intentionally collect personal data from children without an appropriate lawful basis and any required authorization.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Where event photographs or other content include children, publication must comply with applicable privacy and safeguarding requirements.</p>
+<p>Where event photographs or other content include children, publication must comply with applicable privacy and safeguarding requirements, and will be removed on request.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">16. Changes to This Privacy Policy</h2>
+<h2 class="wp-block-heading">19. Changes to This Privacy Policy</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -671,11 +743,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The most recent version will always be published on this page, together with its revision date.</p>
+<p>The most recent version will always be published on this page, together with its revision date. Significant changes will be highlighted on the website.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">17. Contact Information</h2>
+<h2 class="wp-block-heading">20. Contact Information</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -683,7 +755,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Widows Sons Europe<br>Website: [European website URL]<br>Email: [European contact email]<br>Privacy inquiries: [European privacy contact email]</p>
+<p>Widows Sons Europe<br>Website: [European website URL]<br>Email: [European website contact email]<br>Privacy inquiries: [European privacy contact email]</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
