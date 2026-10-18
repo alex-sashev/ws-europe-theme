@@ -46,7 +46,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Across Europe, Widows Sons is organised in national Grand Chapters (countries), each with its own chapters. Every chapter is independents and keeps its own identity and teritory, while riding under the same principles.</p>
+<p>Across Europe, Widows Sons is organised in national Grand Chapters (countries), each with its own chapters. Every chapter is independent and keeps its own identity and territory, while riding under the same principles.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
