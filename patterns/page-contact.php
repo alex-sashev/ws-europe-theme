@@ -29,7 +29,7 @@
 	<div class="ws-card">
 		<p class="ws-card__kicker">Website and cooperation enquiries</p>
 		<h3 class="ws-card__title">European Website Contact</h3>
-		<p>For questions about the website, cooperation between chapters, or your personal data, write to <a href="mailto:info@widowssonseurope.org">info@widowssonseurope.org</a>.</p>
+		<p>For questions about the website, cooperation between chapters, or your personal data, write to <a href="mailto:info@wseurope.org">info@wseurope.org</a>.</p>
 	</div>
 </div>
 <!-- /wp:html -->

@@ -65,7 +65,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Website: Widows Sons Europe<br>Website address: <a href="https://wseurope.org">https://wseurope.org</a><br>European website administrator: Widows Sons Masonic Riders Association, Inc. (WSMRA Inc.)<br>Contact email: <a href="mailto:info@widowssonseurope.org">info@widowssonseurope.org</a><br>Privacy inquiries: <a href="mailto:info@widowssonseurope.org">info@widowssonseurope.org</a></p>
+<p>Website: Widows Sons Europe<br>Website address: <a href="https://wseurope.org">https://wseurope.org</a><br>European website administrator: Widows Sons Masonic Riders Association, Inc. (WSMRA Inc.)<br>Contact email: <a href="mailto:info@wseurope.org">info@wseurope.org</a><br>Privacy inquiries: <a href="mailto:info@wseurope.org">info@wseurope.org</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -639,7 +639,7 @@
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Requests concerning information processed through the European website should be directed to: <a href="mailto:info@widowssonseurope.org">info@widowssonseurope.org</a></p>
+<p>Requests concerning information processed through the European website should be directed to: <a href="mailto:info@wseurope.org">info@wseurope.org</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -761,7 +761,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Widows Sons Europe<br>Website: <a href="https://wseurope.org">https://wseurope.org</a><br>Email: <a href="mailto:info@widowssonseurope.org">info@widowssonseurope.org</a><br>Privacy inquiries: <a href="mailto:info@widowssonseurope.org">info@widowssonseurope.org</a></p>
+<p>Widows Sons Europe<br>Website: <a href="https://wseurope.org">https://wseurope.org</a><br>Email: <a href="mailto:info@wseurope.org">info@wseurope.org</a><br>Privacy inquiries: <a href="mailto:info@wseurope.org">info@wseurope.org</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
