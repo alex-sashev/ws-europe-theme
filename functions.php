@@ -104,7 +104,7 @@ function ws_europe_site_mark() {
 	);
 }
 
-/* Browser-tab icon: the winged WS monogram with triangle and eye, on black, unless a Site Icon has been set in the admin. */
+/* Browser-tab icon: the winged WS monogram with triangle and eye, transparent background, unless a Site Icon has been set in the admin. */
 add_action( 'wp_head', function () {
 	if ( has_site_icon() ) {
 		return;
