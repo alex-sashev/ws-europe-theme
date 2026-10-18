@@ -51,5 +51,5 @@
 
 <!-- wp:html -->
 <div style="margin-block:var(--wp--preset--spacing--40)">[ws_stats]</div>
-<p><a class="ws-btn-gold" href="[ws_page_url slug=countries]">See all countries</a> <a class="ws-link-arrow" href="[ws_chapters_url]" style="margin-left:1rem">Find a chapter →</a></p>
+<p><a class="ws-btn-gold" href="[ws_chapters_url]">Find a chapter</a></p>
 <!-- /wp:html -->

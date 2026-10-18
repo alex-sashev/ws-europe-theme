@@ -47,7 +47,7 @@ add_action( 'init', function () {
 /** Home stats bar: chapters, countries, kilometres, one brotherhood, and the motto. */
 function ws_europe_stats_bar() {
 	$chapters  = (int) wp_count_posts( 'ws_chapter' )->publish;
-	$countries = (int) wp_count_terms( array( 'taxonomy' => 'ws_country', 'hide_empty' => true ) );
+	$countries = function_exists( 'ws_country_map_data' ) ? count( ws_country_map_data() ) : 0; // Countries that have chapters.
 	$icons     = array(
 		'people' => '<circle cx="24" cy="15" r="6"/><circle cx="11" cy="19" r="4.5"/><circle cx="37" cy="19" r="4.5"/><path d="M13 40c0-7 5-12 11-12s11 5 11 12M3 38c0-5 3.5-9 8-9M45 38c0-5-3.5-9-8-9"/>',
 		'pin'    => '<path d="M24 44s-13-11.5-13-21a13 13 0 0 1 26 0c0 9.5-13 21-13 21z"/><circle cx="24" cy="22" r="5"/>',

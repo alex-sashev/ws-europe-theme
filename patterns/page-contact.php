@@ -16,9 +16,9 @@
 <div class="ws-value-grid">
 	<div class="ws-card">
 		<p class="ws-card__kicker">Join or ride with us</p>
-		<h3 class="ws-card__title">Contact your country</h3>
-		<p>Membership and chapter matters are handled by each national Grand Chapter. Find your country and get in touch with its chapters.</p>
-		<p><a href="[ws_page_url slug=countries]">Countries →</a></p>
+		<h3 class="ws-card__title">Contact a chapter</h3>
+		<p>Membership and chapter matters are handled by each national Grand Chapter. Find a chapter near you and get in touch.</p>
+		<p><a href="[ws_chapters_url]">Chapters →</a></p>
 	</div>
 	<div class="ws-card">
 		<p class="ws-card__kicker">General enquiries</p>
