@@ -349,7 +349,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The submitter's name and email address are used only to handle the submission and are never published.</p>
+<p>The submitter's name and email address are used only to handle the submission and are never published. They are deleted automatically 6 months after submission, together with any submission that was not published.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -374,6 +374,9 @@
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li>Your application is never published on the website.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>The copy on the website is deleted automatically 12 months after it was received.</li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
@@ -568,10 +571,13 @@
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li>Membership applications: kept only as long as needed to pass them to the chapter and handle follow-up questions.</li>
+<li>Membership applications: deleted automatically 12 months after they are received.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>Event submissions that are not published: kept only as long as needed to complete the review.</li>
+<li>Event submissions that are not published: deleted automatically 6 months after they are submitted.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>The submitter's name and email address on published events: removed automatically 6 months after the event was submitted.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li>Published events, chapter pages, articles, and media: kept while they serve the purpose for which they were published, and archived or removed when they no longer do.</li>
