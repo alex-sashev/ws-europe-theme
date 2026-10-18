@@ -37,6 +37,6 @@
 <!-- /wp:heading -->
 
 <!-- wp:html -->
-[ws_events limit="3"]
+[ws_events limit="3" recent="1"]
 <p style="margin-top:1.5rem"><a class="ws-btn-gold" href="[ws_page_url slug=contact]">Support our work</a></p>
 <!-- /wp:html -->
