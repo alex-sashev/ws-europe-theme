@@ -84,7 +84,7 @@ function ws_europe_site_logo() {
 		return wp_get_attachment_image( $id, 'medium', false, array( 'class' => 'ws-logo', 'alt' => get_bloginfo( 'name' ) ) );
 	}
 	return sprintf(
-		'<img class="ws-logo" src="%s" width="640" height="339" alt="%s">',
+		'<img class="ws-logo" src="%s" width="640" height="344" alt="%s">',
 		esc_url( get_stylesheet_directory_uri() . '/assets/ws-logo.png' ),
 		esc_attr__( 'Widows Sons emblem', 'ws-europe' )
 	);
