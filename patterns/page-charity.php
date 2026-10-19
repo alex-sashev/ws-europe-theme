@@ -38,5 +38,5 @@
 
 <!-- wp:html -->
 [ws_events limit="3" recent="1"]
-<p style="margin-top:1.5rem"><a class="ws-btn-gold" href="[ws_page_url slug=contact]">Discover Our Charitable Work</a></p>
+<p style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem"><a class="ws-btn-gold" href="[ws_events_url]">Discover Our Events</a> <a class="ws-btn-gold" href="[ws_news_url]">Discover Our Activities</a></p>
 <!-- /wp:html -->
