@@ -1,16 +1,15 @@
-# Widows Sons Europe — WordPress theme
+# ws-europe theme (1.0.0)
 
-Child theme of Twenty Twenty-Five for Widows Sons chapters in Europe. Dark design carried over from the Grand Chapter Bulgaria site (Oswald / IBM Plex, red and brass).
+Child theme of Twenty Twenty-Five for Widows Sons Europe (https://wseurope.org): black and gold, Cinzel and Source Sans 3, "Brotherhood Beyond Borders".
 
-Requires the [ws-chapters](https://github.com/alex-sashev/ws-chapters) plugin, which provides chapter records, official insignia, Grand Chapters and the map.
+Requires the [ws-chapters](https://github.com/alex-sashev/ws-chapters) plugin (chapters, countries, insignia, map, events, members' area).
 
-Templates:
-- `single-ws_chapter.html` — chapter profile: back patch shown large, chapter logo and Grand Chapter logo alongside the chapter's text.
-- `archive-ws_chapter.html` — all chapters: map of Europe plus directory grouped by Grand Chapter.
-- `taxonomy-ws_country.html` — one Grand Chapter: national logo, map and its chapters.
+- **Templates:** home, news, single post, chapter profile, all chapters (map and directory), country page, events list and event page, generic page.
+- **Parts:** header (menu, search, member login) and footer.
+- **Patterns:** About, Charity, Contact, Join, Privacy policy, Submit an event, Useful links.
 
 ## Try it in WordPress Playground
 
-[Open the demo](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/alex-sashev/ws-chapters/main/playground/blueprint.json) — theme and plugin with sample chapters. Nothing is saved; each visit starts fresh.
+[Open the demo](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/alex-sashev/ws-chapters/main/playground/blueprint.json): theme and plugin with sample content. Nothing is saved; each visit starts fresh.
 
 License: GPL-2.0-or-later.

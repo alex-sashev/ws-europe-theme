@@ -2,7 +2,7 @@
 Theme Name:   Widows Sons Europe
 Description:  Child theme of Twenty Twenty-Five for Widows Sons chapters in Europe. Modern and clean, black and gold: "Brotherhood beyond borders". Country and chapter pages, map of Europe, events and news via the ws-chapters plugin.
 Template:     twentytwentyfive
-Version:      2.8.30
+Version:      1.0.0
 Requires at least: 6.7
 Text Domain:  ws-europe
 License:      GPL-2.0-or-later
@@ -98,8 +98,6 @@ body { -webkit-font-smoothing: antialiased; }
 .ws-header .wp-block-navigation .current-menu-item > a,
 .ws-header .wp-block-navigation [aria-current="page"] { color: var(--ws-gold-light); border-bottom-color: var(--ws-gold); }
 .ws-header .wp-block-navigation__responsive-container-open, .ws-header .wp-block-navigation__responsive-container-close { color: var(--ws-on-dark); }
-.ws-header .wp-block-navigation .ws-nav-cta > a { padding: .45rem .9rem; border: 1px solid var(--ws-gold); border-radius: 3px; color: var(--ws-gold-light); }
-.ws-header .wp-block-navigation .ws-nav-cta > a:hover, .ws-header .wp-block-navigation .ws-nav-cta > a[aria-current="page"] { background: var(--ws-gold); color: var(--ws-ink); border-bottom-color: var(--ws-gold); }
 @media (max-width: 1180px) { .ws-header .wp-block-navigation { font-size: .85rem; } .ws-header .wp-block-navigation .wp-block-navigation__container { gap: 14px; } .ws-wordmark__name { font-size: 1.1rem; } }
 /* Search and member icons sit on the same line as the menu links. */
 .ws-header__nav { align-items: center; }
