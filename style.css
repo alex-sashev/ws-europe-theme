@@ -354,3 +354,17 @@ a.ws-emblem:hover, a.ws-emblem:focus-visible { transform: scale(1.03); }
 .ws-footer a:hover { color: var(--ws-gold-light); }
 .ws-footer__legal { font-size: .8rem; color: #8c867d; margin: 0; }
 .ws-footer .wp-block-separator { border-color: rgba(201, 162, 74, .25); background: rgba(201, 162, 74, .25); }
+/* Member login pop-up */
+.ws-login { position: fixed; inset: 0; z-index: 210; display: flex; align-items: center; justify-content: center; background: rgba(8, 7, 5, .7); padding: 1rem; }
+.ws-login[hidden] { display: none; }
+.ws-login__box { position: relative; width: min(400px, 92vw); box-sizing: border-box; padding: 1.5rem 1.4rem; background: #fff; color: #14120c; border: 1px solid var(--ws-gold, #C9A24A); border-radius: 6px; box-shadow: 0 16px 40px rgba(0, 0, 0, .4); }
+.ws-login__title { margin: 0 0 1rem; font-size: 1.4rem; text-transform: uppercase; }
+.ws-login__close { position: absolute; top: 6px; right: 10px; background: transparent; border: 0; font-size: 1.6rem; line-height: 1; color: #5a5a5a; cursor: pointer; }
+.ws-login__close:hover, .ws-login__close:focus-visible { color: #14120c; }
+.ws-login label { display: block; margin: 0 0 .75rem; font-weight: 600; font-size: .95rem; }
+.ws-login input[type=text], .ws-login input[type=password] { display: block; width: 100%; box-sizing: border-box; margin-top: .25rem; padding: .55rem .6rem; border: 1px solid #c3c4c7; border-radius: 3px; font: inherit; font-weight: 400; }
+.ws-login__remember { font-weight: 400 !important; }
+.ws-login__remember input { display: inline-block; width: auto; margin-right: .4rem; vertical-align: middle; }
+.ws-login a { color: #8a6d2c; }
+.ws-login__logout { font-weight: 700; }
+
