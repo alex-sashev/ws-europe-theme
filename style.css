@@ -2,7 +2,7 @@
 Theme Name:   Widows Sons Europe
 Description:  Child theme of Twenty Twenty-Five for Widows Sons chapters in Europe. Modern and clean, black and gold: "Brotherhood beyond borders". Country and chapter pages, map of Europe, events and news via the ws-chapters plugin.
 Template:     twentytwentyfive
-Version:      1.0.0
+Version:      1.0.1
 Requires at least: 6.7
 Text Domain:  ws-europe
 License:      GPL-2.0-or-later
@@ -376,3 +376,23 @@ a.ws-emblem:hover, a.ws-emblem:focus-visible { transform: scale(1.03); }
 .ws-login a { color: #8a6d2c; }
 .ws-login__logout { font-weight: 700; }
 
+
+/* The Hour of Widows Sons: box on the Charity page and its own page. */
+.ws-hour-box { display: grid; grid-template-columns: minmax(0, 220px) 1fr; gap: 1.5rem; align-items: center; margin-block: 2rem 1rem; padding: 1.25rem 1.5rem; background: var(--ws-surface); border: 1px solid var(--ws-line); border-top: 3px solid var(--ws-gold); border-radius: var(--ws-radius); color: inherit; text-decoration: none; transition: box-shadow .15s, transform .15s; }
+.ws-hour-box:hover, .ws-hour-box:focus-visible { box-shadow: 0 8px 24px rgba(0, 0, 0, .12); transform: translateY(-2px); }
+.ws-hour-box img { width: 100%; height: auto; }
+.ws-hour-box__text { display: flex; flex-direction: column; gap: .4rem; }
+.ws-hour-box__title { font-family: var(--ws-display); font-size: 1.5rem; letter-spacing: .04em; }
+.ws-hour-box__more { margin-top: .3rem; color: var(--ws-gold-dark); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: .85rem; }
+@media (max-width: 640px) { .ws-hour-box { grid-template-columns: 1fr; text-align: center; } .ws-hour-box img { max-width: 240px; margin-inline: auto; } }
+.ws-back-link { margin: 0 0 1.5rem; }
+.ws-back-link a { color: var(--ws-gold-dark); font-weight: 700; text-decoration: none; }
+.ws-back-link a:hover { text-decoration: underline; }
+.ws-hour-intro { display: grid; grid-template-columns: minmax(0, 340px) 1fr; gap: 2rem; align-items: center; margin-bottom: 2rem; }
+.ws-hour-intro__logo { width: 100%; height: auto; mix-blend-mode: multiply; }
+.ws-hour-intro__motto { margin: 0 0 .6rem; font-family: var(--ws-display); font-size: 1.6rem; line-height: 1.25; }
+@media (max-width: 720px) { .ws-hour-intro { grid-template-columns: 1fr; } .ws-hour-intro__logo { max-width: 300px; margin-inline: auto; } }
+.ws-hour-route { padding: 1rem 1.25rem; background: var(--ws-surface); border-left: 3px solid var(--ws-gold); font-weight: 600; line-height: 1.8; }
+.ws-hour-quote { margin: 2.5rem 0 .5rem; padding: 0; border: 0; text-align: center; }
+.ws-hour-quote p { margin: 0; font-family: var(--ws-display); font-size: 1.6rem; font-style: italic; color: var(--ws-gold-dark); }
+.ws-hour-values { margin: 0 0 2rem; text-align: center; font-size: .85rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--ws-muted); }

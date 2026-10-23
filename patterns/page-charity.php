@@ -7,6 +7,9 @@
  * Keywords: charity, community
  * Post Types: page
  */
+
+$ws_hour = get_page_by_path( 'charity/the-hour-of-widows-sons' );
+$ws_hour = $ws_hour ? get_permalink( $ws_hour ) : home_url( '/charity/the-hour-of-widows-sons/' );
 ?>
 <!-- wp:paragraph {"className":"ws-lead-dark"} -->
 <p class="ws-lead-dark">Charitable service is a central expression of our brotherhood. Widows Sons chapters support the families of departed Masonic brothers and contribute to causes that make a difference in their communities.</p>
@@ -30,6 +33,18 @@
 		<p>Charitable rides and gatherings bring people together to support meaningful local causes and strengthen community connections.</p>
 	</div>
 </div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<a class="ws-hour-box" href="<?php echo esc_url( $ws_hour ); ?>">
+	<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/hour-of-widows-sons.jpg' ); ?>" alt="" width="800" height="600" loading="lazy">
+	<span class="ws-hour-box__text">
+		<span class="ws-card__kicker">Every 18 February · 9:00 local time</span>
+		<strong class="ws-hour-box__title">The Hour of Widows Sons</strong>
+		<span>One Brotherhood. One Hour. One Purpose. Every chapter in the world shares one charity story at the same local hour: a chain of good deeds that travels around the globe with the sun.</span>
+		<span class="ws-hour-box__more">Discover the Hour &rarr;</span>
+	</span>
+</a>
 <!-- /wp:html -->
 
 <!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
