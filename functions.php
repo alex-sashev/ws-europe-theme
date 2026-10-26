@@ -112,5 +112,7 @@ add_action( 'wp_head', function () {
 	$base = get_stylesheet_directory_uri() . '/assets/';
 	echo '<link rel="icon" href="' . esc_url( $base . 'ws-icon-32.png' ) . '" sizes="32x32">' . "\n";
 	echo '<link rel="icon" href="' . esc_url( $base . 'ws-icon.png' ) . '" sizes="512x512">' . "\n";
-	echo '<link rel="apple-touch-icon" href="' . esc_url( $base . 'ws-icon-180.png' ) . '">' . "\n";
+	// On the home screen: the plugin's app icon (emblem on black) when it is there.
+	$touch = function_exists( 'ws_app_icon_url' ) ? ws_app_icon_url( 'apple-touch-icon.png' ) : $base . 'ws-icon-180.png';
+	echo '<link rel="apple-touch-icon" href="' . esc_url( $touch ) . '">' . "\n";
 }, 1 );
