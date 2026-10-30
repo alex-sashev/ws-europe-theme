@@ -478,10 +478,7 @@
 <!-- wp:list -->
 <ul class="wp-block-list">
 <!-- wp:list-item -->
-<li>Google Fonts (Google): the website's fonts.</li>
-<!-- /wp:list-item -->
-<!-- wp:list-item -->
-<li>cdnjs (Cloudflare): the software that draws the interactive map.</li>
+<li>cdnjs (Cloudflare): the software that draws the interactive map and the events calendar.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li>jsDelivr: the country outlines on the map, the country flags, and a supporting map file.</li>

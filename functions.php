@@ -6,8 +6,8 @@
 defined( 'ABSPATH' ) || exit;
 
 add_action( 'wp_enqueue_scripts', function () {
-	// TODO before launch: self-host these fonts (EU courts have fined sites for loading Google Fonts without consent).
-	wp_enqueue_style( 'ws-europe-fonts', 'https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap', array(), null );
+	// Cinzel and Source Sans 3, hosted here: loading them from Google would send visitors' addresses to Google without consent.
+	wp_enqueue_style( 'ws-europe-fonts', get_stylesheet_directory_uri() . '/assets/fonts/fonts.css', array(), filemtime( get_stylesheet_directory() . '/assets/fonts/fonts.css' ) );
 	wp_enqueue_style( 'ws-europe', get_stylesheet_uri(), array(), filemtime( get_stylesheet_directory() . '/style.css' ) );
 } );
 
