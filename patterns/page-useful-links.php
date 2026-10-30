@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:paragraph {"className":"ws-lead-dark"} -->
-<p class="ws-lead-dark">Websites of the Widows Sons family and our partners.</p>
+<p class="ws-lead-dark"><?php echo esc_html__( 'Websites of the Widows Sons family and our partners.', 'ws-europe' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html {"align":"wide"} -->

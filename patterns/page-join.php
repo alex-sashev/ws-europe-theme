@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:paragraph {"className":"ws-lead-dark"} -->
-<p class="ws-lead-dark">Widows Sons is open to Master Masons in good standing who ride. Choose the chapter closest to you and send your application: it goes straight to that chapter, which will get in touch.</p>
+<p class="ws-lead-dark"><?php echo esc_html__( 'Widows Sons is open to Master Masons in good standing who ride. Choose the chapter closest to you and send your application: it goes straight to that chapter, which will get in touch.', 'ws-europe' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->

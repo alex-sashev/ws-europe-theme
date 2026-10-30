@@ -1,0 +1,494 @@
+msgid ""
+msgstr ""
+"Language: fr_FR\\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\\n"
+
+#: site (page title, menu or block setting)
+msgid "Home"
+msgstr "Accueil"
+
+#: site (page title, menu or block setting)
+msgid "Members"
+msgstr "Membres"
+
+#: site (page title, menu or block setting)
+msgid "Charity & Community"
+msgstr "Charité et communauté"
+
+#: site (page title, menu or block setting)
+msgid "Get in Touch"
+msgstr "Nous contacter"
+
+#: site (page title, menu or block setting)
+msgid "Privacy Policy"
+msgstr "Politique de confidentialité"
+
+#: site (page title, menu or block setting)
+msgid "My profile"
+msgstr "Mon profil"
+
+#: site (page title, menu or block setting)
+msgid "Member directory"
+msgstr "Annuaire des membres"
+
+#: site (page title, menu or block setting)
+msgid "Member management"
+msgstr "Gestion des membres"
+
+#: site (page title, menu or block setting)
+msgid "Website feedback"
+msgstr "Retours sur le site"
+
+#: site (page title, menu or block setting)
+msgid "Edit"
+msgstr "Modifier"
+
+#: site (page title, menu or block setting)
+msgid "Masonic Riders Association · Brotherhood Beyond Borders"
+msgstr "Masonic Riders Association · Une fraternité sans frontières"
+
+#: site (page title, menu or block setting)
+msgid "Search"
+msgstr "Rechercher"
+
+#: site (page title, menu or block setting)
+msgid "Search…"
+msgstr "Rechercher…"
+
+#: themes/ws-europe/functions.php:127
+msgid "Listed chapters"
+msgstr "Chapters répertoriés"
+
+#: themes/ws-europe/functions.php:128
+msgid "Countries represented"
+msgstr "Pays représentés"
+
+#: themes/ws-europe/functions.php:129
+msgid "Shared"
+msgstr "Partagés"
+
+#: themes/ws-europe/functions.php:129
+msgid "Journeys and experiences"
+msgstr "Voyages et expériences"
+
+#: themes/ws-europe/functions.php:130
+msgid "One"
+msgstr "Un"
+
+#: themes/ws-europe/functions.php:130
+msgid "Spirit of brotherhood"
+msgstr "Esprit de fraternité"
+
+#: themes/ws-europe/functions.php:141
+msgid "“Different roads. Shared values. Brotherhood beyond borders.”"
+msgstr "« Des routes différentes. Des valeurs communes. Une fraternité sans frontières. »"
+
+#: themes/ws-europe/functions.php:156 themes/ws-europe/functions.php:169
+msgid "Widows Sons emblem"
+msgstr "Emblème des Widows Sons"
+
+#: themes/ws-europe/functions.php:82
+msgid "This theme requires the “Widows Sons Chapters” plugin to display chapter profiles, the directory and the map."
+msgstr "Ce thème nécessite l'extension « Widows Sons Chapters » pour afficher les profils des Chapters, l'annuaire et la carte."
+
+#: themes/ws-europe/parts/footer.html:12
+msgid "Explore"
+msgstr "Explorer"
+
+#: themes/ws-europe/parts/footer.html:14 site (page title, menu or block setting)
+msgid "Chapters"
+msgstr "Chapters"
+
+#: themes/ws-europe/parts/footer.html:15 site (page title, menu or block setting)
+msgid "Events"
+msgstr "Événements"
+
+#: themes/ws-europe/parts/footer.html:16 themes/ws-europe/templates/home.html:11 themes/ws-europe/templates/single.html:8 site (page title, menu or block setting)
+msgid "News"
+msgstr "Actualités"
+
+#: themes/ws-europe/parts/footer.html:17 site (page title, menu or block setting)
+msgid "Useful links"
+msgstr "Liens utiles"
+
+#: themes/ws-europe/parts/footer.html:21
+msgid "Brotherhood"
+msgstr "Fraternité"
+
+#: themes/ws-europe/parts/footer.html:23 site (page title, menu or block setting)
+msgid "About"
+msgstr "À propos"
+
+#: themes/ws-europe/parts/footer.html:25 site (page title, menu or block setting)
+msgid "Charity"
+msgstr "Charité"
+
+#: themes/ws-europe/parts/footer.html:26 site (page title, menu or block setting)
+msgid "Contact"
+msgstr "Contact"
+
+#: themes/ws-europe/parts/footer.html:30
+msgid "Site"
+msgstr "Site"
+
+#: themes/ws-europe/parts/footer.html:32
+msgid "Privacy policy"
+msgstr "Politique de confidentialité"
+
+#: themes/ws-europe/parts/footer.html:33 site (page title, menu or block setting)
+msgid "Member login"
+msgstr "Connexion membres"
+
+#: themes/ws-europe/parts/footer.html:34 site (page title, menu or block setting)
+msgid "Submit an event"
+msgstr "Proposer un événement"
+
+#: themes/ws-europe/parts/footer.html:8
+msgid "Connecting Masonic riders across Europe through brotherhood, shared journeys and charitable service."
+msgstr "Relier les motards maçonniques à travers l'Europe par la fraternité, les routes partagées et l'engagement caritatif."
+
+#: themes/ws-europe/parts/footer.html:9
+msgid "Brotherhood · Freemasonry · Motorcycling · Charity · Service"
+msgstr "Fraternité · Franc-maçonnerie · Moto · Charité · Service"
+
+#: themes/ws-europe/patterns/page-charity.php:15
+msgid "Charitable service is a central expression of our brotherhood. Widows Sons chapters support the families of departed Masonic brothers and contribute to causes that make a difference in their communities."
+msgstr "L'engagement caritatif est une expression essentielle de notre fraternité. Les Chapters des Widows Sons soutiennent les familles des Frères maçons disparus et contribuent à des causes qui font la différence dans leurs communautés."
+
+#: themes/ws-europe/patterns/page-charity.php:22
+msgid "Supporting Widows and Orphans"
+msgstr "Soutenir les veuves et les orphelins"
+
+#: themes/ws-europe/patterns/page-charity.php:23
+msgid "Practical, financial and personal support for the families of departed Masonic brothers, according to local needs and chapter initiatives."
+msgstr "Un soutien pratique, financier et personnel aux familles des Frères maçons disparus, selon les besoins locaux et les initiatives des Chapters."
+
+#: themes/ws-europe/patterns/page-charity.php:27
+msgid "Helping Our Communities"
+msgstr "Aider nos communautés"
+
+#: themes/ws-europe/patterns/page-charity.php:28
+msgid "From warm-meal initiatives to volunteering and partnerships, chapters contribute time, resources and care where help is needed."
+msgstr "Des repas chauds au bénévolat en passant par les partenariats, les Chapters donnent de leur temps, de leurs ressources et de leur attention là où l'aide est nécessaire."
+
+#: themes/ws-europe/patterns/page-charity.php:32
+msgid "Riding for a Cause"
+msgstr "Rouler pour une cause"
+
+#: themes/ws-europe/patterns/page-charity.php:33
+msgid "Charitable rides and gatherings bring people together to support meaningful local causes and strengthen community connections."
+msgstr "Les balades et rassemblements caritatifs réunissent les gens pour soutenir des causes locales qui comptent et renforcer les liens au sein des communautés."
+
+#: themes/ws-europe/patterns/page-charity.php:42 themes/ws-europe/patterns/page-hour-of-widows-sons.php:23
+msgid "Every 18 February · 9:00 local time"
+msgstr "Chaque 18 février · 9 h 00 heure locale"
+
+#: themes/ws-europe/patterns/page-charity.php:43 site (page title, menu or block setting)
+msgid "The Hour of Widows Sons"
+msgstr "L'Heure des Widows Sons"
+
+#: themes/ws-europe/patterns/page-charity.php:44
+msgid "One Brotherhood. One Hour. One Purpose. Every chapter in the world shares one charity story at the same local hour: a chain of good deeds that travels around the globe with the sun."
+msgstr "Une fraternité. Une heure. Un but. Chaque Chapter dans le monde partage une histoire caritative à la même heure locale : une chaîne de bonnes actions qui fait le tour du globe avec le soleil."
+
+#: themes/ws-europe/patterns/page-charity.php:45
+msgid "Discover the Hour"
+msgstr "Découvrir l'Heure"
+
+#: themes/ws-europe/patterns/page-charity.php:51
+msgid "Upcoming Charity Events"
+msgstr "Événements caritatifs à venir"
+
+#: themes/ws-europe/patterns/page-charity.php:56
+msgid "Discover Our Events"
+msgstr "Découvrir nos événements"
+
+#: themes/ws-europe/patterns/page-charity.php:56
+msgid "Discover Our Activities"
+msgstr "Découvrir nos activités"
+
+#: themes/ws-europe/patterns/page-contact.php:12
+msgid "Whether you are a Masonic rider looking to connect with a local chapter, a chapter representative sharing an event, or a potential charity partner, start with the relevant contact below."
+msgstr "Que vous soyez un motard maçon souhaitant rejoindre un Chapter local, un représentant de Chapter souhaitant partager un événement ou un partenaire caritatif potentiel, commencez par le contact approprié ci-dessous."
+
+#: themes/ws-europe/patterns/page-contact.php:18
+msgid "Find your local brotherhood"
+msgstr "Trouvez votre fraternité locale"
+
+#: themes/ws-europe/patterns/page-contact.php:19
+msgid "Find and Contact a Chapter"
+msgstr "Trouver et contacter un Chapter"
+
+#: themes/ws-europe/patterns/page-contact.php:20
+msgid "Membership and local chapter enquiries are managed by the relevant national organization or chapter. Use the directory to find the appropriate contact."
+msgstr "Les demandes d'adhésion et les demandes concernant les Chapters locaux sont gérées par l'organisation nationale ou le Chapter concerné. Utilisez l'annuaire pour trouver le bon contact."
+
+#: themes/ws-europe/patterns/page-contact.php:21
+msgid "Explore chapters"
+msgstr "Découvrir les Chapters"
+
+#: themes/ws-europe/patterns/page-contact.php:24
+msgid "Membership"
+msgstr "Adhésion"
+
+#: themes/ws-europe/patterns/page-contact.php:25 themes/ws-europe/parts/footer.html:24 themes/ws-europe/templates/front-page.html:78 site (page title, menu or block setting)
+msgid "Join Widows Sons"
+msgstr "Rejoindre les Widows Sons"
+
+#: themes/ws-europe/patterns/page-contact.php:26
+msgid "Are you a Master Mason who rides? Choose the chapter closest to you and send your application: it goes straight to that chapter."
+msgstr "Vous êtes Maître Maçon et motard ? Choisissez le Chapter le plus proche de chez vous et envoyez votre candidature : elle est transmise directement à ce Chapter."
+
+#: themes/ws-europe/patterns/page-contact.php:27
+msgid "Apply"
+msgstr "Postuler"
+
+#: themes/ws-europe/patterns/page-contact.php:30
+msgid "Website and cooperation enquiries"
+msgstr "Demandes concernant le site et la coopération"
+
+#: themes/ws-europe/patterns/page-contact.php:31
+msgid "European Website Contact"
+msgstr "Contact du site européen"
+
+#: themes/ws-europe/patterns/page-contact.php:32
+msgid "For questions about the website, cooperation between chapters, or your personal data, write to <a href=\"mailto:info@wseurope.org\">info@wseurope.org</a>."
+msgstr "Pour toute question sur le site, la coopération entre Chapters ou vos données personnelles, écrivez à <a href=\"mailto:info@wseurope.org\">info@wseurope.org</a>."
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:100
+msgid "<strong>Chapters:</strong> prepare one charity story for 18 February and share it at 9:00 local time."
+msgstr "<strong>Chapters :</strong> préparez une histoire caritative pour le 18 février et partagez-la à 9 h 00 heure locale."
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:101
+msgid "<strong>Coordinators:</strong> one or two brothers per region who contact neighbouring chapters, collect their activities and help prepare everything before 18 February."
+msgstr "<strong>Coordinateurs :</strong> un ou deux Frères par région, qui contactent les Chapters voisins, rassemblent leurs activités et aident à tout préparer avant le 18 février."
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:102
+msgid "<strong>Public Group administrators:</strong> more brothers to help run the Widows Sons Public Group, where every activity of the Hour is published."
+msgstr "<strong>Administrateurs du Public Group :</strong> davantage de Frères pour aider à animer le Widows Sons Public Group, où chaque activité de l'Heure est publiée."
+
+#. translators: %s: link to the contact page
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:107
+msgid "If you or one of your brothers would like to help, please <a href=\"%s\">contact us</a>."
+msgstr "Si vous ou l'un de vos Frères souhaitez aider, veuillez <a href=\"%s\">nous contacter</a>."
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:111
+msgid "The engines may rest. The commitment never does."
+msgstr "Les moteurs peuvent se reposer. L'engagement, jamais."
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:112
+msgid "Brotherhood without borders · Charity without expectation · Service with purpose"
+msgstr "Fraternité sans frontières · Charité sans attente · Service avec un but"
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:16 themes/ws-europe/patterns/page-hour-of-widows-sons.php:113
+msgid "Back to Charity & Community"
+msgstr "Retour à Charité et communauté"
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:21
+msgid "The Hour of Widows Sons logo"
+msgstr "Logo de L'Heure des Widows Sons"
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:24
+msgid "One Brotherhood. One Hour. One Purpose."
+msgstr "Une fraternité. Une heure. Un but."
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:25
+msgid "Once a year, every Widows Sons chapter in the world shares one charity story at the same local hour. As the Earth turns, the Hour travels from country to country: a continuous chain of good deeds around the globe."
+msgstr "Une fois par an, chaque Chapter des Widows Sons dans le monde partage une histoire caritative à la même heure locale. Au fil de la rotation de la Terre, l'Heure voyage de pays en pays : une chaîne continue de bonnes actions autour du globe."
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:31
+msgid "Why 18 February"
+msgstr "Pourquoi le 18 février"
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:35
+msgid "The Widows Sons Masonic Riders Association was founded in Chicago, Illinois, USA, on 18 February 1998. To honour that founding and our commitment to charity, the International Round Table agreed on a simple idea: rather than another event, ride or fundraiser, one moment each year that unites every Widows Sons chapter around the world, and reminds us who we are."
+msgstr "La Widows Sons Masonic Riders Association a été fondée à Chicago, Illinois, États-Unis, le 18 février 1998. Pour honorer cette fondation et notre engagement caritatif, l'International Round Table a retenu une idée simple : plutôt qu'un événement, une balade ou une collecte de fonds de plus, un moment chaque année qui unit tous les Chapters des Widows Sons dans le monde et nous rappelle qui nous sommes."
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:39
+msgid "Whatever country we live in, whatever language we speak, and however large our chapter is, three things connect us all. We ride. We are Freemasons. And we serve."
+msgstr "Quel que soit notre pays, quelle que soit notre langue et quelle que soit la taille de notre Chapter, trois choses nous relient tous. Nous roulons. Nous sommes francs-maçons. Et nous servons."
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:43
+msgid "How it works"
+msgstr "Comment ça marche"
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:50
+msgid "One charity story"
+msgstr "Une histoire caritative"
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:51
+msgid "Each chapter prepares one example of the good its brothers have done for their community. It does not have to happen on the day: an activity from the previous days or weeks counts."
+msgstr "Chaque Chapter prépare un exemple du bien que ses Frères ont fait pour leur communauté. Il n'est pas nécessaire que cela se passe le jour même : une activité des jours ou semaines précédents compte aussi."
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:55
+msgid "Shared at 9:00"
+msgstr "Partagée à 9 h 00"
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:56
+msgid "On 18 February the story is published at 9:00 local time. As the sun moves from east to west, 9:00 travels around the world, and with it the next Widows Sons charity story."
+msgstr "Le 18 février, l'histoire est publiée à 9 h 00 heure locale. À mesure que le soleil se déplace d'est en ouest, 9 h 00 fait le tour du monde, et avec elle la prochaine histoire caritative des Widows Sons."
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:60
+msgid "One worldwide chain"
+msgstr "Une chaîne mondiale"
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:61
+msgid "For twenty-four hours the world can follow a chain of good deeds from every continent. One post may seem small; hundreds together say: this is who we are."
+msgstr "Pendant vingt-quatre heures, le monde peut suivre une chaîne de bonnes actions venues de tous les continents. Une publication peut sembler modeste ; des centaines ensemble disent : voilà qui nous sommes."
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:67
+msgid "The Hour is not about doing the same activity. It is about sharing the same moment. Chapters support children, vulnerable families, hospitals and orphanages, elderly people, humanitarian causes, and safety and education. Different communities, different acts of service, one Brotherhood. Not to promote ourselves, and not to compete over who gave more, but to show that Widows Sons is about much more than motorcycles."
+msgstr "L'Heure ne consiste pas à faire la même activité. Elle consiste à partager le même moment. Les Chapters soutiennent des enfants, des familles vulnérables, des hôpitaux et des orphelinats, des personnes âgées, des causes humanitaires, ainsi que la sécurité et l'éducation. Des communautés différentes, des actions différentes, une seule fraternité. Non pas pour nous mettre en avant, ni pour rivaliser sur qui a donné le plus, mais pour montrer que les Widows Sons, c'est bien plus que des motos."
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:71
+msgid "The first Hour: 18 February 2026"
+msgstr "La première Heure : 18 février 2026"
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:75
+msgid "Chapters in 20 countries on five continents took part, and the Hour followed the sunrise from east to west:"
+msgstr "Des Chapters de 20 pays sur cinq continents y ont participé, et l'Heure a suivi le lever du soleil d'est en ouest :"
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:79
+msgid "Philippines → Finland → Estonia → Latvia → Romania → Bulgaria → South Africa → Italy → Austria → Germany → Switzerland → Luxembourg → Belgium → Britain → Costa Rica → Guatemala → Colombia → United States → Mexico → Brazil"
+msgstr "Philippines → Finlande → Estonie → Lettonie → Roumanie → Bulgarie → Afrique du Sud → Italie → Autriche → Allemagne → Suisse → Luxembourg → Belgique → Grande-Bretagne → Costa Rica → Guatemala → Colombie → États-Unis → Mexique → Brésil"
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:83
+msgid "Every chapter told a different story: children's hospitals, orphanages, children with special needs, elderly care homes, humanitarian aid for Ukraine, grief support, music education, school supplies and toys, motorcycle helmet safety, warm meals for the vulnerable, rural healthcare and women's support organisations, as well as fundraising for the families of fallen Brothers and for Alzheimer's research. Each activity was shared on the Widows Sons Public Group on Facebook, our face to the world."
+msgstr "Chaque Chapter a raconté une histoire différente : hôpitaux pour enfants, orphelinats, enfants à besoins particuliers, maisons de retraite, aide humanitaire pour l'Ukraine, accompagnement du deuil, éducation musicale, fournitures scolaires et jouets, sécurité du casque moto, repas chauds pour les plus vulnérables, soins de santé en milieu rural et associations de soutien aux femmes, ainsi que des collectes de fonds pour les familles de Frères disparus et pour la recherche sur la maladie d'Alzheimer. Chaque activité a été partagée sur le Widows Sons Public Group sur Facebook, notre visage face au monde."
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:87
+msgid "Our thanks go to every chapter that sent photos, every brother who helped collect information, and every volunteer who prepared and published the posts."
+msgstr "Nos remerciements vont à chaque Chapter qui a envoyé des photos, à chaque Frère qui a aidé à rassembler les informations et à chaque bénévole qui a préparé et publié les publications."
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:91
+msgid "Looking ahead: help make it a tradition"
+msgstr "Perspectives : aidez-nous à en faire une tradition"
+
+#: themes/ws-europe/patterns/page-hour-of-widows-sons.php:95
+msgid "The Hour is meant to become an annual worldwide tradition, every 18 February at 9:00 local time. Today it depends on a handful of volunteers who collect activities, make sure nothing is missed, and prepare and schedule the posts. To grow, it has to belong to all of us."
+msgstr "L'Heure a vocation à devenir une tradition mondiale annuelle, chaque 18 février à 9 h 00 heure locale. Aujourd'hui, elle repose sur une poignée de bénévoles qui rassemblent les activités, veillent à ce que rien ne soit oublié, puis préparent et programment les publications. Pour grandir, elle doit appartenir à chacun de nous."
+
+#: themes/ws-europe/patterns/page-join.php:12
+msgid "Widows Sons is open to Master Masons in good standing who ride. Choose the chapter closest to you and send your application: it goes straight to that chapter, which will get in touch."
+msgstr "Les Widows Sons sont ouverts aux Maîtres Maçons en règle qui roulent à moto. Choisissez le Chapter le plus proche de chez vous et envoyez votre candidature : elle est transmise directement à ce Chapter, qui prendra contact avec vous."
+
+#: themes/ws-europe/patterns/page-submit-event.php:12
+msgid "Organising a ride, gathering or charity event? Send it in. Signed-in members' events appear in the event calendar straight away; events sent by visitors appear once an admin has reviewed them."
+msgstr "Vous organisez une balade, un rassemblement ou un événement caritatif ? Envoyez-le-nous. Les événements des membres connectés apparaissent immédiatement dans le calendrier ; ceux envoyés par des visiteurs apparaissent après validation par un administrateur."
+
+#: themes/ws-europe/patterns/page-useful-links.php:12
+msgid "Websites of the Widows Sons family and our partners."
+msgstr "Les sites de la famille Widows Sons et de nos partenaires."
+
+#: themes/ws-europe/templates/archive-ws_chapter.html:11
+msgid "Widows Sons Chapters Across Europe"
+msgstr "Les Chapters des Widows Sons à travers l'Europe"
+
+#: themes/ws-europe/templates/archive-ws_chapter.html:26
+msgid "All chapters"
+msgstr "Tous les Chapters"
+
+#: themes/ws-europe/templates/archive-ws_chapter.html:8
+msgid "Discover the brotherhood"
+msgstr "Découvrir la fraternité"
+
+#: themes/ws-europe/templates/archive-ws_event.html:11
+msgid "European Events Calendar"
+msgstr "Calendrier européen des événements"
+
+#: themes/ws-europe/templates/archive-ws_event.html:18
+msgid "Discover chapter rides, international gatherings, charity events and Masonic motorcycle meetings across Europe. Check individual event details for participation requirements and registration."
+msgstr "Découvrez les balades des Chapters, les rassemblements internationaux, les événements caritatifs et les rencontres motardes maçonniques à travers l'Europe. Consultez le détail de chaque événement pour les conditions de participation et l'inscription."
+
+#: themes/ws-europe/templates/archive-ws_event.html:8
+msgid "Rallies · Rides · Gatherings · Charity"
+msgstr "Rallyes · Balades · Rassemblements · Charité"
+
+#: themes/ws-europe/templates/front-page.html:12
+msgid "Brotherhood Beyond Borders"
+msgstr "Une fraternité sans frontières"
+
+#: themes/ws-europe/templates/front-page.html:13
+msgid "United by Freemasonry and a passion for motorcycling, Widows Sons brothers across Europe ride together, strengthen friendships and serve their communities."
+msgstr "Unis par la Franc-maçonnerie et la passion de la moto, les Frères des Widows Sons à travers l'Europe roulent ensemble, renforcent leurs amitiés et servent leurs communautés."
+
+#: themes/ws-europe/templates/front-page.html:17
+msgid "Explore Our Chapters"
+msgstr "Découvrir nos Chapters"
+
+#: themes/ws-europe/templates/front-page.html:17
+msgid "Discover Widows Sons chapters across Europe."
+msgstr "Découvrez les Chapters des Widows Sons à travers l'Europe."
+
+#: themes/ws-europe/templates/front-page.html:21
+msgid "European Events"
+msgstr "Événements européens"
+
+#: themes/ws-europe/templates/front-page.html:21
+msgid "Explore rallies, charity rides and gatherings that bring brothers together."
+msgstr "Découvrez les rallyes, balades caritatives et rassemblements qui réunissent les Frères."
+
+#: themes/ws-europe/templates/front-page.html:25
+msgid "Our Brotherhood"
+msgstr "Notre fraternité"
+
+#: themes/ws-europe/templates/front-page.html:25
+msgid "Learn about our Masonic roots, values and commitment to charity."
+msgstr "Découvrez nos racines maçonniques, nos valeurs et notre engagement caritatif."
+
+#: themes/ws-europe/templates/front-page.html:53
+msgid "Upcoming Events"
+msgstr "Événements à venir"
+
+#: themes/ws-europe/templates/front-page.html:53
+msgid "Explore all events"
+msgstr "Voir tous les événements"
+
+#: themes/ws-europe/templates/front-page.html:61
+msgid "Latest news"
+msgstr "Dernières actualités"
+
+#: themes/ws-europe/templates/front-page.html:61
+msgid "All news"
+msgstr "Toutes les actualités"
+
+#: themes/ws-europe/templates/front-page.html:75
+msgid "Service and charity"
+msgstr "Service et charité"
+
+#: themes/ws-europe/templates/front-page.html:76
+msgid "Riding With Purpose"
+msgstr "Rouler avec un but"
+
+#: themes/ws-europe/templates/front-page.html:77
+msgid "Our brotherhood extends beyond the open road. Widows Sons chapters support the families of departed brothers and contribute to charitable causes in their communities."
+msgstr "Notre fraternité va au-delà de la route. Les Chapters des Widows Sons soutiennent les familles des Frères disparus et contribuent à des causes caritatives dans leurs communautés."
+
+#: themes/ws-europe/templates/front-page.html:78
+msgid "Our charity work"
+msgstr "Notre action caritative"
+
+#: themes/ws-europe/templates/home.html:18
+msgid "News and activities from Widows Sons chapters and countries across Europe: rides, gatherings, charity work and brotherhood news. Read the latest stories below, or share your own chapter's news."
+msgstr "Actualités et activités des Chapters et pays des Widows Sons à travers l'Europe : balades, rassemblements, actions caritatives et nouvelles de la fraternité. Lisez les dernières histoires ci-dessous, ou partagez les actualités de votre Chapter."
+
+#: themes/ws-europe/templates/home.html:45
+msgid "No news has been published yet."
+msgstr "Aucune actualité n'a encore été publiée."
+
+#: themes/ws-europe/templates/home.html:8
+msgid "Stories from countries and chapters"
+msgstr "Histoires des pays et des Chapters"
+
+#: themes/ws-europe/templates/single-ws_event.html:25
+msgid "Back to all events"
+msgstr "Retour à tous les événements"
+
+#: themes/ws-europe/templates/single-ws_event.html:8
+msgid "Widows Sons event"
+msgstr "Événement Widows Sons"
+
+#: themes/ws-europe/templates/single.html:23
+msgid "Back to all news"
+msgstr "Retour à toutes les actualités"
