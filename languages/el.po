@@ -136,11 +136,11 @@ msgstr "Ιστότοπος"
 msgid "Privacy policy"
 msgstr "Πολιτική απορρήτου"
 
-#: themes/ws-europe/parts/footer.html:33 site (page title, menu or block setting)
+#: themes/ws-europe/parts/footer.html:34 site (page title, menu or block setting)
 msgid "Member login"
 msgstr "Σύνδεση μελών"
 
-#: themes/ws-europe/parts/footer.html:34 site (page title, menu or block setting)
+#: themes/ws-europe/parts/footer.html:35 site (page title, menu or block setting)
 msgid "Submit an event"
 msgstr "Υποβολή εκδήλωσης"
 

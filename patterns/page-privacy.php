@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:paragraph {"className":"ws-lead-dark"} -->
-<p class="ws-lead-dark">Last updated: 18 October 2026</p>
+<p class="ws-lead-dark">Last updated: 2 November 2026</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -214,7 +214,7 @@
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>We do not use analytics, advertising, or tracking tools.</p>
+<p>If you accept, we also count your visit with Google Analytics (see Section 10). We do not use advertising or other tracking tools.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -437,13 +437,33 @@
 <p>For the international association's intellectual property policies, please refer to: <a href="https://wsmrainc.org/privacy-legal">https://wsmrainc.org/privacy-legal</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading">10. Cookies</h2>
+<!-- wp:heading {"anchor":"cookies"} -->
+<h2 class="wp-block-heading" id="cookies">10. Cookies</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The website uses only the essential cookies that WordPress needs to work. It does not use analytics, advertising, or social media tracking cookies, so no cookie consent is needed for visitors who simply browse the site.</p>
+<p>The website uses the essential cookies that WordPress needs to work and, only if you accept, Google Analytics cookies. It does not use advertising or social media tracking cookies.</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Google Analytics (only with your consent)</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>On your first visit a bar asks whether we may count your visit with Google Analytics. Nothing from Google is loaded until you choose "Accept". If you accept, Google Analytics records the pages you open, how you reached the site, your approximate location (country and city, from your IP address), and your browser and device type. We use this only to see how the site is used and to improve it. Google signals and advertising features are switched off, and Google Analytics does not store full IP addresses. The legal basis is your consent (GDPR Article 6(1)(a)).</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Cookies set if you accept: _ga (tells visits apart, kept for up to 2 years) and _ga_… followed by a code (keeps the state of your visit, kept for up to 2 years). Google Analytics keeps the data for 14 months.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Your choice is stored in your browser for one year. You can change it at any time with "Cookie settings" at the bottom of every page<?php echo function_exists( 'ws_cookie_settings_link' ) && ws_cookie_settings_link() ? ' or here: ' . ws_cookie_settings_link() : ''; // phpcs:ignore WordPress.Security.EscapeOutput ?>. Declining or withdrawing consent removes the Google Analytics cookies and does not affect your use of the site.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Essential cookies</h3>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 <p>Cookies are set only when someone signs in:</p>
@@ -464,7 +484,7 @@
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Our forms do not set cookies. If we ever add cookies that are not essential, we will ask for your consent first and update this policy.</p>
+<p>Our forms do not set cookies. If we add other cookies that are not essential, we will ask for your consent first and update this policy.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -484,6 +504,14 @@
 <li>jsDelivr: the country outlines on the map, the country flags, and a supporting map file.</li>
 <!-- /wp:list-item -->
 </ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Only if you accept analytics: Google Analytics (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland) receives the information described in Section 10. Google may process it in the United States; Google LLC is certified under the EU-U.S. Data Privacy Framework. Google's privacy policy: https://policies.google.com/privacy.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->

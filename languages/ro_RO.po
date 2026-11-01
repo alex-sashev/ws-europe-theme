@@ -136,11 +136,11 @@ msgstr "Site"
 msgid "Privacy policy"
 msgstr "Politica de confidențialitate"
 
-#: themes/ws-europe/parts/footer.html:33 site (page title, menu or block setting)
+#: themes/ws-europe/parts/footer.html:34 site (page title, menu or block setting)
 msgid "Member login"
 msgstr "Autentificare membri"
 
-#: themes/ws-europe/parts/footer.html:34 site (page title, menu or block setting)
+#: themes/ws-europe/parts/footer.html:35 site (page title, menu or block setting)
 msgid "Submit an event"
 msgstr "Trimite un eveniment"
 
