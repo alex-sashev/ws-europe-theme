@@ -13,6 +13,7 @@ return array(
 		"My profile" => "Моят профил",
 		"Member directory" => "Указател на членовете",
 		"Member management" => "Управление на членовете",
+		"Applications" => "Кандидатури",
 		"Website feedback" => "Обратна връзка за уебсайта",
 		"Edit" => "Редактиране",
 		"Masonic Riders Association · Brotherhood Beyond Borders" => "Masonic Riders Association · Братство отвъд границите",

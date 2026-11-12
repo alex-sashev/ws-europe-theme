@@ -13,6 +13,7 @@ return array(
 		"My profile" => "Mon profil",
 		"Member directory" => "Annuaire des membres",
 		"Member management" => "Gestion des membres",
+		"Applications" => "Candidatures",
 		"Website feedback" => "Retours sur le site",
 		"Edit" => "Modifier",
 		"Masonic Riders Association · Brotherhood Beyond Borders" => "Masonic Riders Association · Une fraternité sans frontières",

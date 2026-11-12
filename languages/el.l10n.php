@@ -13,6 +13,7 @@ return array(
 		"My profile" => "Το προφίλ μου",
 		"Member directory" => "Κατάλογος μελών",
 		"Member management" => "Διαχείριση μελών",
+		"Applications" => "Αιτήσεις",
 		"Website feedback" => "Σχόλια για τον ιστότοπο",
 		"Edit" => "Επεξεργασία",
 		"Masonic Riders Association · Brotherhood Beyond Borders" => "Τεκτονική Ένωση Μοτοσυκλετιστών · Αδελφότητα πέρα από τα σύνορα",

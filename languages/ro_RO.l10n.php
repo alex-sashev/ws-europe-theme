@@ -13,6 +13,7 @@ return array(
 		"My profile" => "Profilul meu",
 		"Member directory" => "Lista membrilor",
 		"Member management" => "Gestionarea membrilor",
+		"Applications" => "Cereri",
 		"Website feedback" => "Feedback despre website",
 		"Edit" => "Editează",
 		"Masonic Riders Association · Brotherhood Beyond Borders" => "Masonic Riders Association · Frăție dincolo de granițe",

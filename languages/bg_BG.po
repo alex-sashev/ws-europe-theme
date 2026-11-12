@@ -37,6 +37,10 @@ msgid "Member management"
 msgstr "Управление на членовете"
 
 #: site (page title, menu or block setting)
+msgid "Applications"
+msgstr "Кандидатури"
+
+#: site (page title, menu or block setting)
 msgid "Website feedback"
 msgstr "Обратна връзка за уебсайта"
 

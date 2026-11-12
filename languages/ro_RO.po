@@ -37,6 +37,10 @@ msgid "Member management"
 msgstr "Gestionarea membrilor"
 
 #: site (page title, menu or block setting)
+msgid "Applications"
+msgstr "Cereri"
+
+#: site (page title, menu or block setting)
 msgid "Website feedback"
 msgstr "Feedback despre website"
 

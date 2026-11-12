@@ -37,6 +37,10 @@ msgid "Member management"
 msgstr "Διαχείριση μελών"
 
 #: site (page title, menu or block setting)
+msgid "Applications"
+msgstr "Αιτήσεις"
+
+#: site (page title, menu or block setting)
 msgid "Website feedback"
 msgstr "Σχόλια για τον ιστότοπο"
 

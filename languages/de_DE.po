@@ -37,6 +37,10 @@ msgid "Member management"
 msgstr "Mitgliederverwaltung"
 
 #: site (page title, menu or block setting)
+msgid "Applications"
+msgstr "Bewerbungen"
+
+#: site (page title, menu or block setting)
 msgid "Website feedback"
 msgstr "Feedback zur Website"
 
